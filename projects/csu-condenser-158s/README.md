@@ -1,5 +1,7 @@
 # CSU凝汽器158秒真实试产
 
+当前视觉路线：B（高质量2D/2.5D），中期C（混合式）。旧keyframes/与SVG只作工程内部验证；成片候选单独在film-keyframes/。本轮仅SH007美术样板，详见visual/SH007-art-direction.md；其余五镜等待用户确认，旧图动画执行已被禁止。尚无获批的新动画。
+
 原始XLSX已于2026-10-12实际导入，26镜、25×6秒+8秒片尾。当前active_stage=script，候选稿REVIEW，未经专业签署。
 
 阅读顺序：script/candidate.md → reviews/script-review.md → references/master-spec.md → tasks/keyframes.md → reviews/visual-review.md。证据及逐镜数据同时提供JSON；narration.srt为候选字幕。

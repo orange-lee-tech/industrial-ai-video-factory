@@ -58,3 +58,10 @@ class AdmissionTests(unittest.TestCase):
         from scripts.setup_pilot import active_upstreams
         entries=json.loads((ROOT/'registry/approved-skills.json').read_text())['upstreams']
         self.assertEqual([e['name'] for e in active_upstreams(entries)],['create-storyboard'])
+
+    def test_internal_visuals_cannot_be_animated_as_active_film_preview(self):
+        from scripts.clip_runner import require_film_asset
+        project=ROOT/'projects/csu-condenser-158s'
+        with self.assertRaises(ValueError):require_film_asset(project,{'shot_id':'SH007'})
+        with self.assertRaises(ValueError):require_film_asset(project,{'asset_class':'film_keyframe','visual_quality_status':'REVIEW'})
+        require_film_asset(project,{'asset_class':'film_keyframe','visual_quality_status':'APPROVED'})

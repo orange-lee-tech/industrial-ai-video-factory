@@ -20,6 +20,15 @@ def contained(root,relative):
     if not p.is_relative_to(root.resolve()):raise ValueError('Path escapes project')
     return p
 
+def require_film_asset(project,job):
+    # The active pilot route now separates engineering checks from film imagery.
+    # Even --preview must bind the new visual-quality-approved asset layer.
+    if (project/'visual/policy.json').is_file():
+        if job.get('asset_class') != 'film_keyframe':
+            raise ValueError('Engineering preview assets are internal only; SH007 film sample awaits visual approval')
+        if job.get('visual_quality_status') != 'APPROVED':
+            raise ValueError('Film sample visual quality is not approved; do not animate or expand the batch')
+
 def probe():
     import importlib.util
     ready=bool(shutil.which('ffmpeg') and shutil.which('ffprobe') and importlib.util.find_spec('PIL'))
@@ -97,6 +106,7 @@ def run(project,shot_id,backend='diagram-flow',execute=False,preview=False,appro
     project=project.resolve();jobs=read(project/'tasks/keyframes.json')['jobs']
     job=next((j for j in jobs if j['shot_id']==shot_id),None)
     if job is None:raise ValueError('Shot has no keyframe task')
+    if execute:require_film_asset(project,job)
     inputs=validate_inputs(project,job)
     if execute and not preview:require_approval(project,job,inputs,approval)
     params={'backend':backend,'width':width,'height':width*9//16,'fps':fps,'duration_seconds':job['duration_seconds'],'seed':job['seed'],'preview':preview,'camera':job['camera'],'focus':job['focus']}
