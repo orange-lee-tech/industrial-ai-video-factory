@@ -1,0 +1,4 @@
+shot_id,sample_start_s,sample_end_s,film_start_s,film_end_s,keyframe,sha256,narration
+SH009,0,6,48,54,SH009_keyframe.png,53aa8e1f26aa7c3016ebaab7bf80796c83039fda95706b2584d73a63bc991434,冷却水流经管内，带走管壁传来的热量。
+SH010,6,12,54,60,SH010_keyframe.png,74761affd8d6fdcdd462b8dac6714e261bbd34825c367647899e5463c5c2b7eb,管外蒸汽向较冷的管壁放热，发生凝结。
+SH011,12,18,60,66,SH011_keyframe.png,e5dbeb1d1be82954f9246a539364c25b067d1a7c20fa1458ae06a4e5bd63db8c,蒸汽释放潜热，凝结水沿管外液膜汇流。

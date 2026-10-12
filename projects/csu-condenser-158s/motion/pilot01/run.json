@@ -1,0 +1,134 @@
+{
+  "status": "ENCODED_AWAITING_HUMAN_REVIEW",
+  "render_key": "faf500bd19b2c2a0f5cb4a7fb85bc30eb7b82ddfad523f1e8d11ad28961ae38b",
+  "backend": "fixed-raster-film-v1",
+  "script_sha256": "fb95bbbd6d66382c078e80b9255af7c3e5305f96ed7aad0d906738d5a719157b",
+  "permit_sha256": "51cc9270cbb2e603f0c052fab7a532c6db9762cbe8af3a5e9731ab3c5c1e9bc8",
+  "renderer_sha256": "1d136208faf1074ee8b1ff5b14e1bb65c574844b220eb2fcbcdd59f371f0c8a6",
+  "inputs": {
+    "SH003": "478bedf93251d0419d825dd4837677d95cf80d4ce4e9639c7de56af15cf712cd",
+    "SH007": "cff140f8b3c4cde38df614801926ae35639fb848fadb9d190fd30c98df6c8581",
+    "SH008": "3288c418efa722bf00bc920b4c24b21364f145de1d5b3bf0741a3c78c333157f",
+    "SH009": "53aa8e1f26aa7c3016ebaab7bf80796c83039fda95706b2584d73a63bc991434",
+    "SH010": "74761affd8d6fdcdd462b8dac6714e261bbd34825c367647899e5463c5c2b7eb",
+    "SH011": "e5dbeb1d1be82954f9246a539364c25b067d1a7c20fa1458ae06a4e5bd63db8c"
+  },
+  "font_sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+  "fps": 24,
+  "size": [
+    1920,
+    1080
+  ],
+  "video_sha256": "506471429dcc91fdb556b0dddb00a14d38f38ace78d97fe2e6ec73f14a8a89b4",
+  "probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "width": 1920,
+        "height": 1080,
+        "coded_width": 1920,
+        "coded_height": 1080,
+        "closed_captions": 0,
+        "film_grain": 0,
+        "has_b_frames": 2,
+        "pix_fmt": "yuv420p",
+        "level": 40,
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "refs": 1,
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "time_base": "1/12288",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 221184,
+        "duration": "18.000000",
+        "bit_rate": "727440",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "432",
+        "extradata_size": 47,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "vendor_id": "[0][0][0][0]",
+          "encoder": "Lavc60.31.102 libx264"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/workspace/scratch/2d2a9b46ae4c/delivery/motion-pilot01-v3/render.partial.mp4",
+      "nb_streams": 1,
+      "nb_programs": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "18.000000",
+      "size": "1642562",
+      "bit_rate": "730027",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf60.16.100"
+      }
+    }
+  },
+  "paid_inference_calls": 0,
+  "audio": "NONE",
+  "mapping": [
+    {
+      "shot_id": "SH009",
+      "sample_start": 0,
+      "sample_end": 6,
+      "film_start": 48,
+      "film_end": 54,
+      "narration": "冷却水流经管内，带走管壁传来的热量。"
+    },
+    {
+      "shot_id": "SH010",
+      "sample_start": 6,
+      "sample_end": 12,
+      "film_start": 54,
+      "film_end": 60,
+      "narration": "管外蒸汽向较冷的管壁放热，发生凝结。"
+    },
+    {
+      "shot_id": "SH011",
+      "sample_start": 12,
+      "sample_end": 18,
+      "film_start": 60,
+      "film_end": 66,
+      "narration": "蒸汽释放潜热，凝结水沿管外液膜汇流。"
+    }
+  ]
+}

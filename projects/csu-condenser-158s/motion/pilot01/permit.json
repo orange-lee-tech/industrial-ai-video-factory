@@ -1,0 +1,20 @@
+{
+  "status": "CONDITIONAL_TRIAL_ONLY",
+  "authorization": "User conditionally accepted six PNGs and authorized SH009→SH010→SH011 18-second deterministic trial on 2026-10-12; no expanded batch. This is not a fabricated professional signature.",
+  "scope": [
+    "SH009",
+    "SH010",
+    "SH011"
+  ],
+  "source_sha256": "fb95bbbd6d66382c078e80b9255af7c3e5305f96ed7aad0d906738d5a719157b",
+  "keyframe_sha256": {
+    "SH003": "478bedf93251d0419d825dd4837677d95cf80d4ce4e9639c7de56af15cf712cd",
+    "SH007": "cff140f8b3c4cde38df614801926ae35639fb848fadb9d190fd30c98df6c8581",
+    "SH008": "3288c418efa722bf00bc920b4c24b21364f145de1d5b3bf0741a3c78c333157f",
+    "SH009": "53aa8e1f26aa7c3016ebaab7bf80796c83039fda95706b2584d73a63bc991434",
+    "SH010": "74761affd8d6fdcdd462b8dac6714e261bbd34825c367647899e5463c5c2b7eb",
+    "SH011": "e5dbeb1d1be82954f9246a539364c25b067d1a7c20fa1458ae06a4e5bd63db8c"
+  },
+  "human_video_review": "PENDING",
+  "paid_inference": false
+}

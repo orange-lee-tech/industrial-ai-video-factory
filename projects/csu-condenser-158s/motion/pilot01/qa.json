@@ -1,0 +1,18 @@
+{
+  "output_sha256": "506471429dcc91fdb556b0dddb00a14d38f38ace78d97fe2e6ec73f14a8a89b4",
+  "decoded_frames": 432,
+  "duration_seconds": 18,
+  "within_shot_max_mean_absolute_luma_change_0_255": 0.15885416666666666,
+  "cuts_at_seconds": [
+    6,
+    12
+  ],
+  "cut_mean_luma_change_0_255": [
+    41.233072916666664,
+    5.751302083333333
+  ],
+  "minimum_frame_mean_luma": 180.80902777777777,
+  "source_hashes_unchanged": true,
+  "ai_visual_review": "Nine decoded frames inspected; no obvious shape drift or symbol crossing coolant boundary; local film patches remain human-review items.",
+  "human_acceptance": "PENDING"
+}

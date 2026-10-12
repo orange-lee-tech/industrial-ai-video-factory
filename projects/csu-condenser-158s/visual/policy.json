@@ -5,7 +5,7 @@
   "film_assets": "REQUIRE_VISUAL_APPROVAL",
   "sample_shot": "SH007",
   "sample_status": "STYLE_BASELINE_ACCEPTED_BY_USER_FOR_BATCH",
-  "batch_gate": "BATCH01_AUTHORIZED_WAIT_REVIEW_BEFORE_REMAINDER",
+  "batch_gate": "CONDITIONALLY_ACCEPTED_LOCAL_CORRECTION_AND_PILOT01_ONLY",
   "scope": [
     "SH003",
     "SH007",
@@ -14,27 +14,13 @@
     "SH010",
     "SH011"
   ],
-  "queue": [
-    {
-      "shot_id": "SH003",
-      "status": "SPEC_READY"
-    },
-    {
-      "shot_id": "SH008",
-      "status": "SPEC_READY"
-    },
-    {
-      "shot_id": "SH009",
-      "status": "SPEC_READY"
-    },
-    {
-      "shot_id": "SH010",
-      "status": "SPEC_READY"
-    },
-    {
-      "shot_id": "SH011",
-      "status": "SPEC_READY"
-    }
+  "authority": "docs/production/keyframes-v1/",
+  "motion_permit": "motion/pilot01/permit.json",
+  "motion_scope": [
+    "SH009",
+    "SH010",
+    "SH011"
   ],
-  "authority": "docs/production/keyframes-v1/"
+  "remainder": "BLOCKED_UNTIL_HUMAN_PILOT_REVIEW",
+  "image_status_source": "visual/batch01-v1/batch-manifest.json"
 }

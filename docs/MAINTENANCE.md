@@ -19,6 +19,6 @@ If lower levels disagree with higher levels, fix the lower level; never silently
 
 ## Real status
 - Structural tests and CI are not engineering fact approval, visual quality approval, nor proof of 158-second final video.
-- SH007 is a film-art candidate, not signed-off quality; the uploaded ZIP is not the repository's source-of-truth rendered video.
+- Six batch01 PNGs are conditionally accepted for local correction and only the 18-second SH009–SH011 motion trial; professional final signoff is not fabricated. Stop after the pilot.
 - Never execute paid jobs without explicit spend approval.
 - Validate after each integration: `python -m unittest discover -s tests -v`; for the real pilot follow `docs/ops/production-acceptance.md`.
