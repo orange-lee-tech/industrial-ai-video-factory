@@ -1,5 +1,9 @@
 # 规范差异与最小收口
 
+> **2026-10-12 历史适用范围说明：** 本文中要求继续生成 PNG、试产 18 秒本地确定性动画、或者派 Work 施工的段落属于先前阶段的记录，**当前不再自动授权执行**。最新有效规则见 [视频能力判断及生产流程重置](../decisions/2026-10-12-video-capability-and-pivot.md)。两个本地动画试产均经用户 FAIL；停止素材平移返工。关键帧仅为可选静态资产；首先验证自然动态视频生成，零新增付费优先。
+
+
+
 基线 main：92f3e8993c410521b68529724e4249e9a0b02794。四个附件已完整读取；原文在本目录保留，校对后的引用规则在此记录，不静默改写附件。
 
 唯一出图规范入口：docs/production/keyframes-v1/。逐镜事实文本引用 projects/csu-condenser-158s/script/candidate.json；工业证据引用其references/evidence.json及reviews/script-review.json。附件JSON是镜头画面约束输入，不另建一份权威旁白。

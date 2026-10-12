@@ -1,5 +1,9 @@
 # One workspace, minimal operations
 
+> **2026-10-12 历史适用范围说明：** 本文中要求继续生成 PNG、试产 18 秒本地确定性动画、或者派 Work 施工的段落属于先前阶段的记录，**当前不再自动授权执行**。最新有效规则见 [视频能力判断及生产流程重置](../decisions/2026-10-12-video-capability-and-pivot.md)。两个本地动画试产均经用户 FAIL；停止素材平移返工。关键帧仅为可选静态资产；首先验证自然动态视频生成，零新增付费优先。
+
+
+
 ## Principle
 A single canonical production **workspace** and project manifest, not necessarily a single physical computer or a permanent server. Keep management simple and select compute (local, SaaS, rental GPU) by accepted output quality, cost, convenience, license, and future commercial suitability.
 
