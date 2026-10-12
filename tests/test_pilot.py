@@ -52,3 +52,9 @@ class RecoveryTests(unittest.TestCase):
             p=Path(d);start=p/'start.png';end=p/'end.png';start.write_bytes(b'a');end.write_bytes(b'b')
             a=p/'approval.json';a.write_text(json.dumps({'status':'APPROVED','reviewer':'Reviewer','reviewed_at':'2026-10-12T12:00:00Z','script_sha256':'s','master_sha256':'m','frames':{'SH009':{'start':sha(start),'end':'wrong'}}}))
             with self.assertRaises(ValueError):require_approval(p,{'shot_id':'SH009','script_sha256':'s','master_sha256':'m'},{'start_keyframe':start,'end_keyframe':end},a)
+
+class AdmissionTests(unittest.TestCase):
+    def test_deferred_upstream_is_never_selected_for_setup(self):
+        from scripts.setup_pilot import active_upstreams
+        entries=json.loads((ROOT/'registry/approved-skills.json').read_text())['upstreams']
+        self.assertEqual([e['name'] for e in active_upstreams(entries)],['create-storyboard'])
