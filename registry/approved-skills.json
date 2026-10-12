@@ -15,9 +15,9 @@
       "repository": "https://github.com/ai2764/ai-video-skills",
       "revision": "a42f31adcd733719f1234b1ba42743af83bde086",
       "license": "NOT FOUND IN REPOSITORY TREE: do not vendor",
-      "integration": "optional pinned local checkout with codex/director-storyboard and shared scripts",
+      "integration": "none: user deferred pending licensing and need",
       "entry": "codex/director-storyboard/SKILL.md",
-      "status": "user-approved/source-verified/runtime-not-tested"
+      "status": "DEFERRED / DO NOT INSTALL"
     }
   ]
 }
