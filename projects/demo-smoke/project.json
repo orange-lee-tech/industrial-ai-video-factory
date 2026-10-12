@@ -1,0 +1,19 @@
+{
+  "project_id": "demo-smoke",
+  "title": "Contract smoke test — not a production film",
+  "active_stage": "script",
+  "shots": [
+    {
+      "shot_id": "SH001",
+      "duration_seconds": 6,
+      "equipment_ids": [
+        "TURBINE_HP_01"
+      ],
+      "reference_files": [],
+      "script": "已审核参考图下的汽轮机高压缸示意镜头（演示占位，不视为知识审核通过）",
+      "script_status": "DRAFT",
+      "keyframe_status": "BLOCKED",
+      "clip_status": "BLOCKED"
+    }
+  ]
+}

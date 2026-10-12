@@ -1,0 +1,15 @@
+# produced media and models stay outside Git
+*.mp4
+*.mov
+*.webm
+*.safetensors
+*.ckpt
+*.gguf
+*.pt
+*.pth
+.env
+.env.*
+!.env.example
+__pycache__/
+.pytest_cache/
+.DS_Store
