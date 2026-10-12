@@ -7,9 +7,16 @@
 *.gguf
 *.pt
 *.pth
+*.xlsx
 .env
 .env.*
 !.env.example
 __pycache__/
 .pytest_cache/
 .DS_Store
+.upstreams/
+projects/*/source/
+projects/*/keyframes/
+projects/*/clips/
+projects/*/exports/
+projects/*/tmp/
