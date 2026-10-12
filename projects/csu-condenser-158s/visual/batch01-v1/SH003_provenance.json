@@ -1,0 +1,102 @@
+{
+  "shot_id": "SH003",
+  "time_range": "00:12–00:18",
+  "duration_seconds": 6.0,
+  "narration": "这里，是凝汽器与真空系统。",
+  "script_path": "projects/csu-condenser-158s/script/candidate.json",
+  "script_sha256": "fb95bbbd6d66382c078e80b9255af7c3e5305f96ed7aad0d906738d5a719157b",
+  "script_base_commit": "92f3e8993c410521b68529724e4249e9a0b02794",
+  "asset_class": "film_keyframe",
+  "media_status": "REAL_PNG_GENERATED",
+  "production_state": "FACT_REVIEW",
+  "equipment_id": "COND_01",
+  "file": "SH003_keyframe.png",
+  "width": 1672,
+  "height": 941,
+  "mode": "RGB",
+  "file_sha256": "478bedf93251d0419d825dd4837677d95cf80d4ce4e9639c7de56af15cf712cd",
+  "ratio_note": "near 16:9, native integer-pixel rounding in width/height; final exact 1920x1080 preference not yet met",
+  "dimensions_preference_unmet": true,
+  "requested_size": "1920x1080 preferred",
+  "generation": {
+    "method": "built-in image_gen",
+    "model_name": null,
+    "model_version": null,
+    "seed": null,
+    "steps": null,
+    "cfg": null,
+    "unexposed_parameter_note": "Built-in tool does not expose exact model/version/seed/steps/CFG; no invented values",
+    "observed_file_time_utc": "2026-10-12T07:30:30.860785+00:00",
+    "time_semantics": "local output/copy filesystem timestamp, not backend billing timestamp",
+    "calls_this_batch": 1,
+    "references": [
+      {
+        "path": "SH007_keyframe.png",
+        "sha256": "cff140f8b3c4cde38df614801926ae35639fb848fadb9d190fd30c98df6c8581",
+        "role": "approved art-quality reference, not engineering authority"
+      }
+    ],
+    "final_prompt_file": "SH003_prompt.txt",
+    "final_prompt_sha256": "63e4d59969521a0c1c4d52eecdb16c9549dcb6cdf6431cacc993a2f7740cf556",
+    "fees": {
+      "independent_paid_api_calls": 0,
+      "separate_api_spend_cny": 0,
+      "subscription_quota_usage": "not exposed; not claimed as zero",
+      "exact_provider_cost": null
+    }
+  },
+  "evidence_ids": [
+    "S2"
+  ],
+  "producer_fact_precheck": {
+    "type": "AI visual precheck, not human engineering approval",
+    "result": "NO_OBSERVED_CORE_TOPOLOGY_ERROR",
+    "observations": [
+      "五条代表管与SH007朝向一致，蓝色在管内与两端水室",
+      "抽气支路入口可见于壳侧管束下方、金色液位上方；未接右蓝色水室",
+      "热井及底部金色出口独立，无文字或示意箭头"
+    ],
+    "pixel_regions_xyxy": {
+      "shell_air_takeoff": [
+        1125,
+        540,
+        1230,
+        630
+      ],
+      "right_blue_waterbox": [
+        1280,
+        310,
+        1430,
+        600
+      ],
+      "bottom_hotwell": [
+        410,
+        630,
+        1180,
+        715
+      ]
+    }
+  },
+  "producer_art_precheck": {
+    "result": "SUBMITTED_FOR_HUMAN_REVIEW",
+    "style_anchor_sha256": "cff140f8b3c4cde38df614801926ae35639fb848fadb9d190fd30c98df6c8581",
+    "notes": "浅三分之四全景，主排汽口居上、热井居下，右侧独立灰色抽气支路"
+  },
+  "human_fact_review": {
+    "reviewer": null,
+    "status": "PENDING",
+    "comments": null
+  },
+  "human_art_review": {
+    "reviewer": null,
+    "status": "PENDING",
+    "comments": null
+  },
+  "pending_questions": [
+    "抽气口是功能性典型示意，具体机组位置未核实",
+    "三分之四程度较浅、主体占画幅高于70%建议；侧管通出边缘，需人工决定构图是否接受",
+    "泵为中性系统方框，不表示具体机型"
+  ],
+  "motion_plan": "reference-only still pending dual approval; no video job executed",
+  "exact_target_dimensions": false
+}

@@ -5,7 +5,7 @@
 ## Authority hierarchy
 1. `00_constitution/production-principles-v1.md` — product invariants.
 2. `docs/decisions/2026-10-12-execution-and-skill-policy.md` and `docs/decisions/2026-10-12-film-visual-route.md` — adopted constraints.
-3. `contracts/` and executable validators — format and state gates.
+3. `docs/production/keyframes-v1/` — canonical direct-PNG shot constraints and acceptance; `contracts/` and executable validators — project/clip format gates. See alignment.md for explicit state-layer mapping.
 4. `docs/ops/` — operational guide; `.agents/skills/` — six role instructions.
 5. `projects/csu-condenser-158s/` — **pilot example**, not a second global policy.
 

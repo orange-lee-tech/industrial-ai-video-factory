@@ -1,11 +1,11 @@
 {
-  "route": "B",
+  "route": "B_PLUS",
   "future_route": "C",
   "engineering_assets": "INTERNAL_VALIDATION_ONLY",
   "film_assets": "REQUIRE_VISUAL_APPROVAL",
   "sample_shot": "SH007",
-  "sample_status": "VISUAL_REVIEW",
-  "batch_gate": "WAITING_USER_SAMPLE_APPROVAL",
+  "sample_status": "STYLE_BASELINE_ACCEPTED_BY_USER_FOR_BATCH",
+  "batch_gate": "BATCH01_AUTHORIZED_WAIT_REVIEW_BEFORE_REMAINDER",
   "scope": [
     "SH003",
     "SH007",
@@ -17,23 +17,24 @@
   "queue": [
     {
       "shot_id": "SH003",
-      "status": "WAITING_SH007_VISUAL_APPROVAL"
+      "status": "SPEC_READY"
     },
     {
       "shot_id": "SH008",
-      "status": "WAITING_SH007_VISUAL_APPROVAL"
+      "status": "SPEC_READY"
     },
     {
       "shot_id": "SH009",
-      "status": "WAITING_SH007_VISUAL_APPROVAL"
+      "status": "SPEC_READY"
     },
     {
       "shot_id": "SH010",
-      "status": "WAITING_SH007_VISUAL_APPROVAL"
+      "status": "SPEC_READY"
     },
     {
       "shot_id": "SH011",
-      "status": "WAITING_SH007_VISUAL_APPROVAL"
+      "status": "SPEC_READY"
     }
-  ]
+  ],
+  "authority": "docs/production/keyframes-v1/"
 }

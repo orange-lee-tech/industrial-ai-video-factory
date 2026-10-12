@@ -1,5 +1,6 @@
 # Pilot art-to-clip gate (B+ toward C)
 Work's existing geometry SVG is the **engineering source**, not automatically final art. User's `Surface Condenser` reference is a **visual quality** reference only, and its ambiguous arrows are not engineering authority.
+Current still-frame authority: docs/production/keyframes-v1/. SVG is optional, direct high-quality PNG mandatory. These operational lists do not define an alternative image status or delivery contract; use alignment.md for state mapping and the per-shot double-review records.
 
 ### Before any paid render
 - [ ] Source-verified claim ledger complete and reviewed for each visual statement.

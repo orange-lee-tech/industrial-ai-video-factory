@@ -1,0 +1,101 @@
+{
+  "shot_id": "SH008",
+  "time_range": "00:42–00:48",
+  "duration_seconds": 6.0,
+  "narration": "蒸汽走管外，冷却水走管内，两者隔着管壁。",
+  "script_path": "projects/csu-condenser-158s/script/candidate.json",
+  "script_sha256": "fb95bbbd6d66382c078e80b9255af7c3e5305f96ed7aad0d906738d5a719157b",
+  "script_base_commit": "92f3e8993c410521b68529724e4249e9a0b02794",
+  "asset_class": "film_keyframe",
+  "media_status": "REAL_PNG_GENERATED",
+  "production_state": "FACT_REVIEW",
+  "equipment_id": "COND_01",
+  "file": "SH008_keyframe.png",
+  "width": 1672,
+  "height": 941,
+  "mode": "RGB",
+  "file_sha256": "3288c418efa722bf00bc920b4c24b21364f145de1d5b3bf0741a3c78c333157f",
+  "ratio_note": "near 16:9, native integer-pixel rounding in width/height; final exact 1920x1080 preference not yet met",
+  "dimensions_preference_unmet": true,
+  "requested_size": "1920x1080 preferred",
+  "generation": {
+    "method": "built-in image_gen",
+    "model_name": null,
+    "model_version": null,
+    "seed": null,
+    "steps": null,
+    "cfg": null,
+    "unexposed_parameter_note": "Built-in tool does not expose exact model/version/seed/steps/CFG; no invented values",
+    "observed_file_time_utc": "2026-10-12T07:31:47.871997+00:00",
+    "time_semantics": "local output/copy filesystem timestamp, not backend billing timestamp",
+    "calls_this_batch": 1,
+    "references": [
+      {
+        "path": "SH007_keyframe.png",
+        "sha256": "cff140f8b3c4cde38df614801926ae35639fb848fadb9d190fd30c98df6c8581",
+        "role": "approved art-quality reference, not engineering authority"
+      }
+    ],
+    "final_prompt_file": "SH008_prompt.txt",
+    "final_prompt_sha256": "f202a9ee32b26c9506be31a3237ba58e5cf468fd906fbad70bda3a238998af97",
+    "fees": {
+      "independent_paid_api_calls": 0,
+      "separate_api_spend_cny": 0,
+      "subscription_quota_usage": "not exposed; not claimed as zero",
+      "exact_provider_cost": null
+    }
+  },
+  "evidence_ids": [
+    "S2"
+  ],
+  "producer_fact_precheck": {
+    "type": "AI visual precheck, not human engineering approval",
+    "result": "NO_OBSERVED_CORE_TOPOLOGY_ERROR",
+    "observations": [
+      "五条管腔蓝色，管间可见银色壁与外侧淡青空间",
+      "水室处于管板外，热井处于壳体底部",
+      "未新增抽气装置或顶部冷却水接口，无文字和箭头"
+    ],
+    "pixel_regions_xyxy": {
+      "blue_lumens": [
+        370,
+        310,
+        1310,
+        570
+      ],
+      "left_tubesheet": [
+        305,
+        285,
+        365,
+        630
+      ],
+      "shell_steam": [
+        375,
+        230,
+        1290,
+        310
+      ]
+    }
+  },
+  "producer_art_precheck": {
+    "result": "SUBMITTED_FOR_HUMAN_REVIEW",
+    "style_anchor_sha256": "cff140f8b3c4cde38df614801926ae35639fb848fadb9d190fd30c98df6c8581",
+    "notes": "同一设备ID与正视朝向，蓝色管腔、淡青壳侧、金色热井分区"
+  },
+  "human_fact_review": {
+    "reviewer": null,
+    "status": "PENDING",
+    "comments": null
+  },
+  "human_art_review": {
+    "reviewer": null,
+    "status": "PENDING",
+    "comments": null
+  },
+  "pending_questions": [
+    "色块与雾气是教学编码，蓝色高光不可解释为两相流或真实液面",
+    "工程连续性为语义/拓扑，非CAD逐像素一致；需人审壳体细节差异"
+  ],
+  "motion_plan": "reference-only still pending dual approval; no video job executed",
+  "exact_target_dimensions": false
+}
