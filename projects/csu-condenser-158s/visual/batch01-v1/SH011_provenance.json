@@ -1,0 +1,113 @@
+{
+  "shot_id": "SH011",
+  "time_range": "01:00–01:06",
+  "duration_seconds": 6.0,
+  "narration": "蒸汽释放潜热，凝结水沿管外液膜汇流。",
+  "script_path": "projects/csu-condenser-158s/script/candidate.json",
+  "script_sha256": "fb95bbbd6d66382c078e80b9255af7c3e5305f96ed7aad0d906738d5a719157b",
+  "script_base_commit": "92f3e8993c410521b68529724e4249e9a0b02794",
+  "asset_class": "film_keyframe",
+  "media_status": "REAL_PNG_GENERATED",
+  "production_state": "FACT_REVIEW",
+  "equipment_id": "COND_01",
+  "file": "SH011_keyframe.png",
+  "width": 1671,
+  "height": 941,
+  "mode": "RGB",
+  "file_sha256": "e5dbeb1d1be82954f9246a539364c25b067d1a7c20fa1458ae06a4e5bd63db8c",
+  "ratio_note": "near 16:9, native integer-pixel rounding in width/height; final exact 1920x1080 preference not yet met",
+  "dimensions_preference_unmet": true,
+  "requested_size": "1920x1080 preferred",
+  "generation": {
+    "method": "built-in image_gen",
+    "model_name": null,
+    "model_version": null,
+    "seed": null,
+    "steps": null,
+    "cfg": null,
+    "unexposed_parameter_note": "Built-in tool does not expose exact model/version/seed/steps/CFG; no invented values",
+    "observed_file_time_utc": "2026-10-12T07:36:36.797043+00:00",
+    "time_semantics": "local output/copy filesystem timestamp, not backend billing timestamp",
+    "calls_this_batch": 2,
+    "references": [
+      {
+        "path": "SH010_keyframe.png",
+        "sha256": "74761affd8d6fdcdd462b8dac6714e261bbd34825c367647899e5463c5c2b7eb",
+        "role": "same macro geometry for first attempt"
+      },
+      {
+        "path": "rejected/SH011_gold_film_too_strong.png",
+        "sha256": "c1a21a18c1a37a611b38ade510fb70e495bd4de377f40faf2835f2a6228dc262",
+        "role": "target of selected gold-reduction edit"
+      }
+    ],
+    "final_prompt_file": "SH011_prompt.txt",
+    "final_prompt_sha256": "6c958196090d3a4c9a7fed076ca118429992380dc4c1e7b516d61ddf3cf65d63",
+    "fees": {
+      "independent_paid_api_calls": 0,
+      "separate_api_spend_cny": 0,
+      "subscription_quota_usage": "not exposed; not claimed as zero",
+      "exact_provider_cost": null
+    }
+  },
+  "evidence_ids": [
+    "S3"
+  ],
+  "producer_fact_precheck": {
+    "type": "AI visual precheck, not human engineering approval",
+    "result": "NO_OBSERVED_CORE_TOPOLOGY_ERROR",
+    "observations": [
+      "重试版把大面积金色着色改回银灰，薄金色沿外壁连续",
+      "金色液膜与滴落都在金属外侧，蓝色管内水未染金",
+      "未以孤立珠状凝结替代液膜；无金色热井大池、无文字和箭头"
+    ],
+    "pixel_regions_xyxy": {
+      "outer_film_meniscus": [
+        500,
+        575,
+        1530,
+        695
+      ],
+      "drip_1": [
+        615,
+        635,
+        710,
+        740
+      ],
+      "drip_2": [
+        1120,
+        600,
+        1210,
+        720
+      ],
+      "blue_lumen": [
+        260,
+        240,
+        1665,
+        560
+      ]
+    }
+  },
+  "producer_art_precheck": {
+    "result": "SUBMITTED_FOR_HUMAN_REVIEW",
+    "style_anchor_sha256": "cff140f8b3c4cde38df614801926ae35639fb848fadb9d190fd30c98df6c8581",
+    "notes": "同SH010单管视角，银灰金属为主，外轮廓极薄金色液膜与两处滴流"
+  },
+  "human_fact_review": {
+    "reviewer": null,
+    "status": "PENDING",
+    "comments": null
+  },
+  "human_art_review": {
+    "reviewer": null,
+    "status": "PENDING",
+    "comments": null
+  },
+  "pending_questions": [
+    "液膜色彩和厚度为可读性放大，专业审阅者需确认不会误导",
+    "初版金色过强已保留在rejected，不计入可用关键帧",
+    "本图为静帧，不证明真实重力流动已经模拟"
+  ],
+  "motion_plan": "reference-only still pending dual approval; no video job executed",
+  "exact_target_dimensions": false
+}

@@ -1,5 +1,6 @@
 # Practical gate checklist — not a claim of completed validation
 
+Current still-frame authority: docs/production/keyframes-v1/. SVG is optional, direct high-quality PNG mandatory. These operational lists do not define an alternative image status or delivery contract; use alignment.md for state mapping and the per-shot double-review records.
 ## Script gate (mandatory)
 - [ ] 26 narration entries mapped to 158-second condenser pilot; intended output at least 120 seconds.
 - [ ] Each technical claim has source/reviewer or explicit uncertainty.

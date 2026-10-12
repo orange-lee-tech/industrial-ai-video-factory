@@ -1,0 +1,90 @@
+{
+  "shot_id": "SH007",
+  "time_range": "00:36–00:42",
+  "duration_seconds": 6.0,
+  "narration": "壳体内有冷却管束，两端设管板和水室。",
+  "script_path": "projects/csu-condenser-158s/script/candidate.json",
+  "script_sha256": "fb95bbbd6d66382c078e80b9255af7c3e5305f96ed7aad0d906738d5a719157b",
+  "script_base_commit": "92f3e8993c410521b68529724e4249e9a0b02794",
+  "asset_class": "film_keyframe",
+  "media_status": "REAL_PNG_REUSED",
+  "production_state": "FACT_REVIEW",
+  "equipment_id": "COND_01",
+  "file": "SH007_keyframe.png",
+  "width": 1672,
+  "height": 941,
+  "mode": "RGB",
+  "file_sha256": "cff140f8b3c4cde38df614801926ae35639fb848fadb9d190fd30c98df6c8581",
+  "ratio_note": "near 16:9, native integer-pixel rounding in width/height; final exact 1920x1080 preference not yet met",
+  "dimensions_preference_unmet": true,
+  "requested_size": "1920x1080 preferred",
+  "generation": {
+    "method": "existing selected image reused unchanged",
+    "model_name": null,
+    "model_version": null,
+    "seed": null,
+    "steps": null,
+    "cfg": null,
+    "unexposed_parameter_note": "Built-in tool does not expose exact model/version/seed/steps/CFG; no invented values",
+    "observed_file_time_utc": "2026-10-12T06:57:59.141514+00:00",
+    "time_semantics": "local output/copy filesystem timestamp, not backend billing timestamp",
+    "calls_this_batch": 0,
+    "references": [],
+    "final_prompt_file": "SH007_prompt.txt",
+    "final_prompt_sha256": "e94b39aff72aaf2c02a404d132f0224bf0e729ada9c55a62592c24a6efebd038",
+    "fees": {
+      "independent_paid_api_calls": 0,
+      "separate_api_spend_cny": 0,
+      "subscription_quota_usage": "not exposed; not claimed as zero",
+      "exact_provider_cost": null
+    }
+  },
+  "evidence_ids": [
+    "S2"
+  ],
+  "producer_fact_precheck": {
+    "type": "AI visual precheck, not human engineering approval",
+    "result": "NO_OBSERVED_CORE_TOPOLOGY_ERROR",
+    "observations": [
+      "本轮未调用模型重画，文件SHA256与原SH007完全相同",
+      "五条可见代表管，未冒充真实管数",
+      "无文字、无箭头，抽气支路本镜不显示"
+    ],
+    "pixel_regions_xyxy": {
+      "left_tubesheet": [
+        310,
+        270,
+        380,
+        625
+      ],
+      "right_tubesheet": [
+        1270,
+        270,
+        1350,
+        625
+      ]
+    }
+  },
+  "producer_art_precheck": {
+    "result": "SUBMITTED_FOR_HUMAN_REVIEW",
+    "style_anchor_sha256": "cff140f8b3c4cde38df614801926ae35639fb848fadb9d190fd30c98df6c8581",
+    "notes": "原图原封不动保留，正视纵剖面；壳体、管束、两管板与水室清楚"
+  },
+  "human_fact_review": {
+    "reviewer": null,
+    "status": "PENDING",
+    "comments": null
+  },
+  "human_art_review": {
+    "reviewer": null,
+    "status": "PENDING",
+    "comments": null
+  },
+  "pending_questions": [
+    "既有雾气和蓝水高光为示意，不能用来断言真实气液流态",
+    "原生尺寸为近16:9像素舍入结果，不是1920×1080",
+    "用户本次授权作为美术起点；专业事实审阅仍无签名"
+  ],
+  "motion_plan": "reference-only still pending dual approval; no video job executed",
+  "exact_target_dimensions": false
+}

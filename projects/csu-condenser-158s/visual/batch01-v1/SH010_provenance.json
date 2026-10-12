@@ -1,0 +1,107 @@
+{
+  "shot_id": "SH010",
+  "time_range": "00:54–01:00",
+  "duration_seconds": 6.0,
+  "narration": "管外蒸汽向较冷的管壁放热，发生凝结。",
+  "script_path": "projects/csu-condenser-158s/script/candidate.json",
+  "script_sha256": "fb95bbbd6d66382c078e80b9255af7c3e5305f96ed7aad0d906738d5a719157b",
+  "script_base_commit": "92f3e8993c410521b68529724e4249e9a0b02794",
+  "asset_class": "film_keyframe",
+  "media_status": "REAL_PNG_GENERATED",
+  "production_state": "FACT_REVIEW",
+  "equipment_id": "COND_01",
+  "file": "SH010_keyframe.png",
+  "width": 1672,
+  "height": 941,
+  "mode": "RGB",
+  "file_sha256": "74761affd8d6fdcdd462b8dac6714e261bbd34825c367647899e5463c5c2b7eb",
+  "ratio_note": "near 16:9, native integer-pixel rounding in width/height; final exact 1920x1080 preference not yet met",
+  "dimensions_preference_unmet": true,
+  "requested_size": "1920x1080 preferred",
+  "generation": {
+    "method": "built-in image_gen",
+    "model_name": null,
+    "model_version": null,
+    "seed": null,
+    "steps": null,
+    "cfg": null,
+    "unexposed_parameter_note": "Built-in tool does not expose exact model/version/seed/steps/CFG; no invented values",
+    "observed_file_time_utc": "2026-10-12T07:33:59.430646+00:00",
+    "time_semantics": "local output/copy filesystem timestamp, not backend billing timestamp",
+    "calls_this_batch": 1,
+    "references": [
+      {
+        "path": "SH007_keyframe.png",
+        "sha256": "cff140f8b3c4cde38df614801926ae35639fb848fadb9d190fd30c98df6c8581",
+        "role": "approved art-quality reference, not engineering authority"
+      },
+      {
+        "path": "SH009_keyframe.png",
+        "sha256": "53aa8e1f26aa7c3016ebaab7bf80796c83039fda95706b2584d73a63bc991434",
+        "role": "material/cutaway continuity"
+      }
+    ],
+    "final_prompt_file": "SH010_prompt.txt",
+    "final_prompt_sha256": "c46a0085f77353d094c9818b2ed813e70f701167435d9779147388a8bc9dc218",
+    "fees": {
+      "independent_paid_api_calls": 0,
+      "separate_api_spend_cny": 0,
+      "subscription_quota_usage": "not exposed; not claimed as zero",
+      "exact_provider_cost": null
+    }
+  },
+  "evidence_ids": [
+    "S3"
+  ],
+  "producer_fact_precheck": {
+    "type": "AI visual precheck, not human engineering approval",
+    "result": "NO_OBSERVED_CORE_TOPOLOGY_ERROR",
+    "observations": [
+      "环形金属壁可追踪，蓝色内腔与淡青外部空间分开",
+      "无冰霜，未让蒸汽进入蓝色管腔",
+      "与SH011保持相同单管角度与纵剖窗口，无标注箭头"
+    ],
+    "pixel_regions_xyxy": {
+      "metal_section_ring": [
+        215,
+        175,
+        530,
+        660
+      ],
+      "blue_lumen": [
+        255,
+        240,
+        485,
+        605
+      ],
+      "outer_steam": [
+        600,
+        25,
+        1450,
+        215
+      ]
+    }
+  },
+  "producer_art_precheck": {
+    "result": "SUBMITTED_FOR_HUMAN_REVIEW",
+    "style_anchor_sha256": "cff140f8b3c4cde38df614801926ae35639fb848fadb9d190fd30c98df6c8581",
+    "notes": "左环形截面，右纵剖窗口；内蓝水、银灰环壁、外淡青蒸汽"
+  },
+  "human_fact_review": {
+    "reviewer": null,
+    "status": "PENDING",
+    "comments": null
+  },
+  "human_art_review": {
+    "reviewer": null,
+    "status": "PENDING",
+    "comments": null
+  },
+  "pending_questions": [
+    "扩大截面属于宏观教学局部，无真实管径或壁厚数字",
+    "开窗不是物理裂缝；未来动态需避免把流体动画穿出窗口",
+    "蒸汽 wisps 为可视化，不代表可见纯水蒸气本体"
+  ],
+  "motion_plan": "reference-only still pending dual approval; no video job executed",
+  "exact_target_dimensions": false
+}

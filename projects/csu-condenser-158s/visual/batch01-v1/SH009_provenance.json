@@ -1,0 +1,102 @@
+{
+  "shot_id": "SH009",
+  "time_range": "00:48–00:54",
+  "duration_seconds": 6.0,
+  "narration": "冷却水流经管内，带走管壁传来的热量。",
+  "script_path": "projects/csu-condenser-158s/script/candidate.json",
+  "script_sha256": "fb95bbbd6d66382c078e80b9255af7c3e5305f96ed7aad0d906738d5a719157b",
+  "script_base_commit": "92f3e8993c410521b68529724e4249e9a0b02794",
+  "asset_class": "film_keyframe",
+  "media_status": "REAL_PNG_GENERATED",
+  "production_state": "FACT_REVIEW",
+  "equipment_id": "COND_01",
+  "file": "SH009_keyframe.png",
+  "width": 1672,
+  "height": 941,
+  "mode": "RGB",
+  "file_sha256": "53aa8e1f26aa7c3016ebaab7bf80796c83039fda95706b2584d73a63bc991434",
+  "ratio_note": "near 16:9, native integer-pixel rounding in width/height; final exact 1920x1080 preference not yet met",
+  "dimensions_preference_unmet": true,
+  "requested_size": "1920x1080 preferred",
+  "generation": {
+    "method": "built-in image_gen",
+    "model_name": null,
+    "model_version": null,
+    "seed": null,
+    "steps": null,
+    "cfg": null,
+    "unexposed_parameter_note": "Built-in tool does not expose exact model/version/seed/steps/CFG; no invented values",
+    "observed_file_time_utc": "2026-10-12T07:32:46.235396+00:00",
+    "time_semantics": "local output/copy filesystem timestamp, not backend billing timestamp",
+    "calls_this_batch": 1,
+    "references": [
+      {
+        "path": "SH007_keyframe.png",
+        "sha256": "cff140f8b3c4cde38df614801926ae35639fb848fadb9d190fd30c98df6c8581",
+        "role": "approved art-quality reference, not engineering authority"
+      }
+    ],
+    "final_prompt_file": "SH009_prompt.txt",
+    "final_prompt_sha256": "39441bc243b594aa031001c839c8976835190d94eb78f36f5b0f18a75ec3ff8c",
+    "fees": {
+      "independent_paid_api_calls": 0,
+      "separate_api_spend_cny": 0,
+      "subscription_quota_usage": "not exposed; not claimed as zero",
+      "exact_provider_cost": null
+    }
+  },
+  "evidence_ids": [
+    "S2"
+  ],
+  "producer_fact_precheck": {
+    "type": "AI visual precheck, not human engineering approval",
+    "result": "NO_OBSERVED_CORE_TOPOLOGY_ERROR",
+    "observations": [
+      "局部三管是裁切/代表展示，不宣称整机只三管",
+      "蓝色水位于水室和管腔，右侧管外保持淡青",
+      "入口处密封边界清晰，无文字或箭头，未添加泵/热井"
+    ],
+    "pixel_regions_xyxy": {
+      "common_waterbox": [
+        280,
+        200,
+        575,
+        720
+      ],
+      "tubesheet": [
+        580,
+        120,
+        720,
+        800
+      ],
+      "tube_windows": [
+        745,
+        245,
+        1670,
+        635
+      ]
+    }
+  },
+  "producer_art_precheck": {
+    "result": "SUBMITTED_FOR_HUMAN_REVIEW",
+    "style_anchor_sha256": "cff140f8b3c4cde38df614801926ae35639fb848fadb9d190fd30c98df6c8581",
+    "notes": "左水室、中央厚管板、向右伸展三根代表换热管；下方字幕空带"
+  },
+  "human_fact_review": {
+    "reviewer": null,
+    "status": "PENDING",
+    "comments": null
+  },
+  "human_art_review": {
+    "reviewer": null,
+    "status": "PENDING",
+    "comments": null
+  },
+  "pending_questions": [
+    "剖开窗口为教学揭示，不表示实际管破损",
+    "管侧水的强高光需人工判断是否会误读为气泡/自由表面，后期不要再强化",
+    "输入侧流向以后由确定性箭头说明，本图不携带方向矢量"
+  ],
+  "motion_plan": "reference-only still pending dual approval; no video job executed",
+  "exact_target_dimensions": false
+}
