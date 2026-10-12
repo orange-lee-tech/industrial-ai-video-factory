@@ -1,12 +1,19 @@
-# CSU凝汽器158秒真实试产
+# CSU《凝汽器与真空系统》158 秒试样
 
-本批正式入口为docs/production/keyframes-v1/；首批真实PNG与每镜证据索引见visual/batch01-v1/batch-manifest.json。SH007原PNG不变，新生成SH003、SH008–SH011。工程SVG为可选参考，旧单镜停点已由用户首批授权覆盖；本批后仍等待人工验收。
-当前视觉路线：B（高质量2D/2.5D），中期C（混合式）。旧keyframes/与SVG只作工程内部验证；成片候选单独在film-keyframes/。旧轮仅SH007美术样板，详见visual/SH007-art-direction.md；最新首批授权与产物见visual/batch01-v1，旧图动画执行已被禁止。尚无获批的新动画。
+课程任务：26 镜（25×6s + 8s 片尾），总目标 158s 且最终不少于 120s。**当前没有完整获批成片。**
 
-原始XLSX已于2026-10-12实际导入，26镜、25×6秒+8秒片尾。当前active_stage=script，候选稿REVIEW，未经专业签署。
+## 已有资产
+- 原始 Excel 导入和审查版脚本：`script/`、`reviews/`；涉及事实尚待最终专业签署。
+- 六镜高质量 PNG 候选：SH003、SH007–SH011。相关任务、来源记录在 `visual/batch01-v1/`，实际图片/视频是项目工作区和用户已收到的 ZIP，不能从 GitHub 文本路径推定图片已存入仓库。
+- 工程 SVG 和早期示意图属于历史辅助资产；不再承担必选成片视觉输入。
+- 动态 pilot01：18s 正常封装但看起来基本静止 → 用户 FAIL。
+- 动态 pilot02：18s 的层/纹理/镜头运动存在，但呈现不自然的平移感 → 用户 FAIL。
+- 同伴约125s 影片动态显著更丰富（实际供应商、精确费用不详）；同时发现生成式工业细节与画内文字可靠性风险。
 
-阅读顺序：script/candidate.md → reviews/script-review.md → references/master-spec.md → tasks/keyframes.md → reviews/visual-review.md。证据及逐镜数据同时提供JSON；narration.srt为候选字幕。
+## 当前定论
+**不再让 Work 做 pilot03 的图层平移动画返工。** 不强制全部镜头先生成 PNG/SVG。应先设计动态分镜，再选生成式视频、可编辑二维动画或三维制作方式；专用 AI 视频只是候选，当前没有验证免费可完成全片。
 
-已实际渲染SH003、SH007–SH011共12张首尾PNG和12份SVG；SH009/SH011各6秒本地动态预览。媒体不进入Git，交付包带实际文件，重新生成命令见docs/codex-local-handoff.md。未形成158秒成片。
+## 下一步（需明确授权）
+探索不增加现金支出的合法真实动态生成入口。用 SH003 做很短的自然推进场景试验（用户批准后），通过人工运动/事实验收才扩展到 SH009 或剩余 20 镜。保留 26 镜结构，早期旁白和字幕时间预算可随镜头设计同步进行。
 
-不得把结构校验或COMPLETED编码状态当作专业批准。后续先通过人工专业/视觉关卡，再扩大关键帧，补录音、标注和其余镜头。当前无需为模型切换设备；按最新cloud-neutral决策选择最低实际总成本的执行方式。
+通用规则见 `docs/decisions/2026-10-12-video-capability-and-pivot.md`。旧版 `motion/pilot01`、`motion/pilot02`、SVG、render scripts 均归档复现，不是活动施工许可。

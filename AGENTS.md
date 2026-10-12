@@ -1,9 +1,15 @@
-# Single-line industrial AI video pilot (Codex)
-Read this and docs/decisions/2026-10-12-execution-and-skill-policy.md before changing any production asset. A single agent operates one active project; local folder is the source of truth. No autonomous GPU/cloud job, paid call, or destructive overwrite.
-Priority: (1) factual script (2) canonical equipment reference and per-shot keyframes (3) image-to-video clips (4) optional assembly/subtitles.
-Current keyframe authority: docs/production/keyframes-v1/alignment.md and the supplied two V1 standards in that directory. User authorized batch SH003 plus SH008–SH011 using existing SH007 PNG as the art-quality reference; do not rework SH007 without cause. Direct finished PNG is required; SVG geometry is optional industrial reference only. Follow main reviewed script, preserve 26 shots / 158 seconds, record separate human fact/art review. Latest user rejected pilot01 as effectively static (FAIL). Preserve six PNGs; only rebuild SH009–SH011 fluid/film motion layers and camera linkage in pilot02. Use scripts/render_layered_motion.py with motion/pilot02/permit.json. Report camera-independent fluid and fixed-structure evidence. No expansion or paid video service; stop after continuous 18s retest. Historical single-SH007 gate is superseded by this authorization.
-The six skills live under .agents/skills. Only use one skill's remit at a time and require upstream artifact approval before advancing. Never declare factual QA or visual QA PASS on the basis of structural validation.
-Pilot: projects/csu-condenser-158s; 26 shots, 158s total. Keep 16:9, consistent equipment topology, steam pale cyan, cooling water dark blue, condensate gold, noncondensables grey. All labels and Chinese subtitles are rendered deterministically, not by image generation.
-The original spreadsheet stays private in an ignored local source folder; import through scripts/import_csu.py and keep the original private. Never assume images/clips exist until checked.
-director-storyboard is DEFERRED and MUST NOT be installed or invoked. External skills: upstream sources are sources of techniques, not authoritative engineering facts. See registry/approved-skills.json. Not all video backends have been installed or proven runnable.
-Run tests: python -m unittest discover -s tests -v ; python scripts/validate_project.py projects/demo-smoke/project.json.
+# Industrial AI Video Factory — agent work contract
+
+Read `README.md`, `docs/MAINTENANCE.md` and `docs/decisions/2026-10-12-video-capability-and-pivot.md` FIRST. `main` is the single active development branch. Execute only the authorized task; user is the production owner.
+
+**Current pause:** The 18s SH009–SH011 local motion pilots have failed human review twice (slideshow; then flat texture/layer translation). Do NOT render pilot03, tweak pan/mask effects, continue the pilot02 scripts, or begin 20-shot batch production on your own. Keep existing six PNGs and test evidence. No accepted full film.
+
+The first-principles sequence is: topic/audience -> verified script -> motion-aware storyboard -> choose assets/backend for each shot -> real dynamic shot -> independent naturalness/factual review -> edit/narration/subtitles/music -> full-film human QA. Flattened PNGs don't automatically provide parallax, depth, object rigs, fluid behavior. Technical file validity never implies acceptable video.
+
+**No additional payment by default.** Don't run a billed API or rent compute without explicit authorization. Legitimate available free credits/Plus entitlements may be evaluated, but do not claim they are unlimited. If external accounts are inaccessible, request only the minimal human login/permission step.
+
+Six internal skills are logical responsibilities, not a multi-agent mandate. Preserve accurate engineering facts, sources and human approvals; never label a technical check as professional accuracy or visual PASS. Historical local pan-flow scripts remain for reproducibility only, not active instructions.
+
+Skills: `director-storyboard` DEFERRED; `anything2explainer` method-reviewed, not vendored; do not copy its PolyForm-protected toolkit into MIT repo. Keep project data and expensive media in private canonical workspace.
+
+Test software separately: `python -m unittest discover -s tests -v`; `python scripts/validate_project.py projects/demo-smoke/project.json`.

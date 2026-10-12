@@ -1,16 +1,18 @@
-# GitHub / Work / Codex collaboration boundary
+# ChatGPT / Work / Codex 实际职责与交接边界
 
-Work currently handles the pilot's script and keyframe packaging on its own workstream. This infrastructure branch is intentionally based on main and does **not** edit PR #1/#2 pilot files. Do not cherry-pick unreviewed PR changes blindly.
+**最新行动权威**：`docs/decisions/2026-10-12-video-capability-and-pivot.md`。先遵守 `main` 和用户最后一次正式授权。旧 PR/分支、过时视频试产步骤并非有效命令。
 
-| Actor | Owns | Does not automatically do |
+| 角色 | 擅长的可验证工作 | 不可代替 |
 |---|---|---|
-| ChatGPT / Work | factual research and references, script revisions, keyframe brief, repository planning and deterministic files | attest industrial accuracy without evidence; buy model calls |
-| Codex (if needed) | local tooling integration, repeatable media pipelines, dependency testing, rendering execution | re-invent approved knowledge/visual choices |
-| Human expert | engineering accuracy, difficult visual claims, cost approval, copyright/source assessment | hand-copy assets between devices |
+| ChatGPT / Work | 主题研究、叙事/脚本、事实来源整理、分镜构想、静态关键帧、可用服务对比、文件验收 | 专业视频模型的生成质量/无限推理额度 |
+| Codex | 有边界的软件施工、脚本、测试、文件契约、可复现输出 | 由展平 PNG 推断真实三维结构和物理运动 |
+| 专业人工 | 工业事实审定、动态自然度、人类观感、付费批准、课程验收 | 无需接管每条自动化施工任务 |
 
-## Handoff contract
-1. Provide repo + branch + exact commit, source artifact location and schema version.
-2. State **what is verified** and **what still requires review**; include test command and output evidence.
-3. Identify only the next blocked step (not a giant speculative roadmap).
-4. Use one active producer per shared file/branch. Merge through PR and reconcile conflicts, never overwrite a concurrent Work result.
-5. Favor standard formats (JSON, PNG, SVG, MP4, Markdown) and interchangeable compute providers.
+## 单次交接必须携带
+1. `main` 的实际 HEAD，以及真实存在的文件路径/工件。
+2. 脚本事实审批、美术审批、自然运动验收分别列出 PASS/FAIL/PENDING。
+3. 当前失败：pilot01、pilot02 均 FAIL；保留素材，不执行重复修补。
+4. 后续具体最小动作及其成本、权益、需要用户点击的步骤。
+5. 新增付费禁止默认开启；无真实证据不允许标 DONE。
+
+已获认可的静态画面保留，不得未经要求重画。历史代码可以保留，但不能成为下次默认执行入口。
