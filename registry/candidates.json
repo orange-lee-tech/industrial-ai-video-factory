@@ -13,8 +13,8 @@
       "name": "director-storyboard",
       "url": "https://github.com/ai2764/ai-video-skills",
       "stage": "keyframe_to_clip",
-      "status": "review",
-      "rationale": "backend routing; verify license and runnable tests"
+      "status": "DEFERRED",
+      "rationale": "Latest main decision: do not clone/install/run; archival candidate only"
     },
     {
       "name": "video-storyboard",
