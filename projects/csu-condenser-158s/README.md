@@ -1,0 +1,11 @@
+# CSU pilot — 凝汽器与真空系统
+- Owner: 中南大学第3组
+- User's source: 第3组_凝汽器与真空系统_158秒AI科普分镜脚本.xlsx (local only)
+- Locked target: 26 shots, 25 × 6 s + 8 s end card = 158 s; at least 120 s exported.
+- Master reference shots: SH003 and SH007–SH011 **before** progressing to other keyframes.
+- Structural requirements: condenser shell, cooling tubes, tube sheets, waterboxes, hotwell, air extraction path and example vacuum pump. Condensing exhaust steam contacts the outside of cooling tubes; circulating water remains inside.
+- Stage gates: engineering script review required before APPROVED script; keyframe visual review required before video jobs. No one-pass video generation.
+- Suggested precision edits: SH011 avoid exclusively dropwise condensation; SH013–014 pressure below ambient is not empty space; SH017 vacuum pump is a plant-specific example, not a universal system.
+- For the full 26-shot source, run: `python scripts/import_csu.py 'C:\\path\\to\\第3组_凝汽器与真空系统_158秒AI科普分镜脚本.xlsx'` from repo root.
+- Keep source workbook and generated media out of public GitHub; the generated shot-plan.json is a working copy for local approval.
+- Deliver subtitles and end-card later, from editable text, NOT from generative images.
