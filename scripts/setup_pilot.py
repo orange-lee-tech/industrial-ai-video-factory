@@ -20,6 +20,9 @@ def doctor(root):
         if not content.startswith('---\n') or '\nname: '+name+'\n' not in content or '\ndescription: ' not in content:failures.append(f'Invalid discovery metadata: {name}')
     if failures:raise ValueError('; '.join(failures))
     return {'skills':ROLES,'discovery':'repository .agents/skills with name/description frontmatter','codex_runtime':'not invoked; restart existing Codex session if skills were added'}
+def active_upstreams(entries):
+    return [e for e in entries if e.get('status','').startswith('user-approved') and e.get('license') == 'MIT']
+
 def setup(root,with_upstreams=False,install_storyboard=False):
     root=root.resolve();doctor(root)
     project=root/'projects/csu-condenser-158s'
@@ -27,7 +30,7 @@ def setup(root,with_upstreams=False,install_storyboard=False):
     registry=json.loads((root/'registry/approved-skills.json').read_text(encoding='utf-8'))['upstreams']
     if with_upstreams or install_storyboard:
         if not shutil.which('git'):raise ValueError('Git required for approved source checkout')
-        for entry in registry:
+        for entry in active_upstreams(registry):
             name=entry['repository'].rstrip('/').split('/')[-1];dest=root/'.upstreams'/name
             if not dest.exists():
                 dest.parent.mkdir(exist_ok=True);git('clone','--no-checkout',entry['repository']+'.git',dest)
@@ -40,7 +43,7 @@ def setup(root,with_upstreams=False,install_storyboard=False):
             if not (dest/entry['entry']).is_file():raise ValueError('Upstream entry missing')
             if entry['name']=='create-storyboard' and not (dest/'LICENSE').read_text(encoding='utf-8').startswith('MIT License'):raise ValueError('Unexpected source license')
     if install_storyboard:
-        entry=registry[0];repo=root/'.upstreams/create-storyboard-skill';src=repo/'skills/create-storyboard';dest=root/'.agents/skills/create-storyboard'
+        entry=next(e for e in active_upstreams(registry) if e['name']=='create-storyboard');repo=root/'.upstreams/create-storyboard-skill';src=repo/'skills/create-storyboard';dest=root/'.agents/skills/create-storyboard'
         expected={str(p.relative_to(src)):digest(p) for p in src.rglob('*') if p.is_file() and '__pycache__' not in str(p)}
         expected['LICENSE']=digest(repo/'LICENSE')
         if dest.exists():
