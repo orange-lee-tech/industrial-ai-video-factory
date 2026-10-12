@@ -2,7 +2,7 @@
 
 当前集成尚未合并；按本轮 PR 的施工分支检出，不假定 main 已含流水线。
 
-T470s 可以作为当前主控，不必迁移设备；脚本审查、矢量关键帧和两段预览无需专用 GPU。F117 与 M4 均可运行同一控制目录。M4是未来节点候选，不是当前执行前提。当前未运行本机大型图像/视频模型。
+采用最新cloud-neutral决策，不固定T470s、F117或M4为主控。已有机器可运行本轮确定性脚本和图层预览，无需专用GPU；未来按质量、时间和实际总成本比较托管云端与本地方案，不自动付费或搭建常驻模型服务。
 
 Windows PowerShell（在仓库根目录）：
 
@@ -23,7 +23,7 @@ macOS/Linux：将 `py -3` 换成 `python3`，初始化用 `python3 scripts/setup
 
 Python 3.10+。导入、校验、安装、SVG渲染仅用标准库与 Git。PNG渲染需 Pillow，预览需 Pillow+FFmpeg/ffprobe（编码器 libx264）；未安装时只提供 SVG 和 dry-run。不得自动下载模型。此环境实测 Pillow+FFmpeg 已有，具体用户设备需 `clip_runner.py --probe`。
 
-六岗位在 `.agents/skills/<role>/SKILL.md`，符合项目技能发现布局；Work 已逐一读过，doctor 检查入口。未在用户桌面 Codex 实际启动任务，新增加技能后可重启已有会话。可选 MIT 技能复制完整技能目录，附 LICENSE 和版本/文件哈希；安装目录被 Git 忽略。director-storyboard 仅保留完整源仓库供研究，入口 `.upstreams/ai-video-skills/codex/director-storyboard/SKILL.md`，共享 helpers 在其仓库根目录，不能单拷 SKILL.md 当作可运行工具。
+六岗位在 `.agents/skills/<role>/SKILL.md`，符合项目技能发现布局；Work 已逐一读过，doctor 检查入口。未在用户桌面 Codex 实际启动任务，新增加技能后可重启已有会话。可选 MIT 技能复制完整技能目录，附 LICENSE 和版本/文件哈希；安装目录被 Git 忽略。director-storyboard已被最新决策暂停，不克隆、安装或执行；注册中的版本仅作归档。
 
 原始 Excel、上游克隆、安装副本、PNG、片段、临时运行记录和人工批准文件均忽略，不推入公开仓库。candidate.json/md、任务包与原创 master.svg 是可审查生产规格。
 
