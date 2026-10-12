@@ -1,0 +1,27 @@
+name: Static production gate
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  gate:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m unittest discover -s tests -v
+      - run: python scripts/validate_project.py projects/demo-smoke/project.json
+      - run: python scripts/validate_pilot.py
+      - run: python scripts/setup_pilot.py --doctor
+      - run: python scripts/setup_pilot.py
+      - if: runner.os == 'Windows'
+        shell: pwsh
+        run: ./scripts/setup_pilot.ps1
+      - run: python scripts/render_keyframes.py

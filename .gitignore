@@ -1,0 +1,24 @@
+# produced media and models stay outside Git
+*.mp4
+*.mov
+*.webm
+*.safetensors
+*.ckpt
+*.gguf
+*.pt
+*.pth
+*.xlsx
+.env
+.env.*
+!.env.example
+__pycache__/
+.pytest_cache/
+.DS_Store
+.upstreams/
+.agents/skills/create-storyboard/
+projects/*/reviews/approval*.json
+projects/*/source/
+projects/*/keyframes/
+projects/*/clips/
+projects/*/exports/
+projects/*/tmp/

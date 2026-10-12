@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Industrial Video Job",
+  "type": "object",
+  "required": [
+    "project_id",
+    "title",
+    "active_stage",
+    "shots"
+  ],
+  "properties": {
+    "project_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9_-]+$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "active_stage": {
+      "enum": [
+        "script",
+        "keyframe",
+        "clip",
+        "assembly",
+        "closed"
+      ]
+    },
+    "shots": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "shot_id",
+          "duration_seconds",
+          "equipment_ids",
+          "script",
+          "script_status",
+          "reference_files",
+          "keyframe_status",
+          "clip_status"
+        ],
+        "properties": {
+          "shot_id": {
+            "type": "string",
+            "pattern": "^SH[0-9]{3,}$"
+          },
+          "duration_seconds": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "maximum": 60
+          },
+          "equipment_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "script": {
+            "type": "string",
+            "minLength": 1
+          },
+          "script_status": {
+            "enum": [
+              "DRAFT",
+              "REVIEW",
+              "APPROVED",
+              "LOCKED"
+            ]
+          },
+          "reference_files": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "keyframe_status": {
+            "enum": [
+              "BLOCKED",
+              "DRAFT",
+              "REVIEW",
+              "APPROVED",
+              "LOCKED"
+            ]
+          },
+          "clip_status": {
+            "enum": [
+              "BLOCKED",
+              "DRAFT",
+              "REVIEW",
+              "APPROVED",
+              "LOCKED"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": true
+}

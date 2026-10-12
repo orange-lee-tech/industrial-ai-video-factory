@@ -1,0 +1,46 @@
+{
+  "checked_on": "2026-10-12",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "DOE-HDBK-1018/1-93 Mechanical Science, Heat Exchangers",
+      "url": "https://archives.standards.doxcelerate.com/documents/doe-hdbk-1018-1-93-doe-fundamentals-handbook-mechanical-science-volume-1-of-2",
+      "locator": "ME-02 pp.14–17; Figure 9 single-pass condenser",
+      "supports": "凝汽器低背压、冷却影响、热井与排凝、抽气维持真空",
+      "limitations": "1993教学手册，非本片机组设计文件；不采用示例数值。"
+    },
+    {
+      "id": "S2",
+      "title": "Graham Surface Condenser O&M manual OMI_SC_0401",
+      "url": "https://graham-mfg.com/wp-content/uploads/2023/06/OMI_SC_0401_surface_conderser.pdf",
+      "locator": "printed pp.3–4 and 6–8; PDF pp.3–4,6–8; sections 1.2/1.3 and 4.4/4.5",
+      "supports": "结构分隔、管板、水室、热井、含水蒸气的空气抽除及设备选项",
+      "limitations": "厂商典型结构参考，Figure II含回程分隔；本片单流程教学母版不是其设备复制。"
+    },
+    {
+      "id": "S3",
+      "title": "Spirax Sarco Heat Transfer",
+      "url": "https://www.spiraxsarco.com/learn-about-steam/steam-engineering-principles-and-heat-transfer/heat-transfer",
+      "locator": "Filmwise condensation; Dropwise condensation; Barriers to heat transfer",
+      "supports": "放热凝结、液膜与珠状条件、空气影响换热",
+      "limitations": "通用换热原理，不证明具体凝汽器表面润湿状态。"
+    },
+    {
+      "id": "S4",
+      "title": "Graham Surface Condensers",
+      "url": "https://graham-mfg.com/solutions/products/surface-condensers/",
+      "locator": "Overview: down, top and axial exhaust configurations",
+      "supports": "排汽布置存在差异",
+      "limitations": "本片选下排汽示例，无真实厂房布局依据。"
+    },
+    {
+      "id": "S5",
+      "title": "Graham Liquid Ring Vacuum Pumps",
+      "url": "https://graham-mfg.com/solutions/products/ling-ring-vacuum-pumps/",
+      "locator": "Power generation equipment; combination with ejectors",
+      "supports": "水环泵可用于凝汽器抽气及组合方案",
+      "limitations": "不套用其具体型号、级数、压力、性能和专利结构。"
+    }
+  ],
+  "basis": "primary sources read; qualitative review, no plant-specific verification"
+}

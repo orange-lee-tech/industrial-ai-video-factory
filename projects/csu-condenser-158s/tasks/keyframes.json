@@ -1,0 +1,246 @@
+{
+  "project_id": "csu-condenser-158s",
+  "status": "DRAFT",
+  "jobs": [
+    {
+      "shot_id": "SH003",
+      "duration_seconds": 6,
+      "master_id": "MASTER-COND-01-v1",
+      "focus": "overview",
+      "status": "DRAFT",
+      "script_sha256": "fb95bbbd6d66382c078e80b9255af7c3e5305f96ed7aad0d906738d5a719157b",
+      "master_sha256": "ea2927ebaf2cb8cab2176a1f1597ea949262a808364930c5254abcfb0b0b7874",
+      "evidence_ids": [
+        "S2"
+      ],
+      "start_state": "全系统结构清楚",
+      "end_state": "全系统结构清楚",
+      "camera": "locked-off; no orbit, no mirror",
+      "start_keyframe": "keyframes/SH003/start.png",
+      "end_keyframe": "keyframes/SH003/end.png",
+      "editable_source": "keyframes/SH003/start.svg",
+      "overlay_text": "凝汽器与真空系统 · 第3组",
+      "negative_constraints": [
+        "sealed tube wall separates media",
+        "two end tube sheets separate waterboxes from shell",
+        "no cooling water route to hotwell",
+        "hotwell remains below tubes",
+        "air extraction branch separate from main steam inlet",
+        "six drawn tube tracks are symbolic, never claim actual tube count",
+        "no mirrored axes or viewpoint changes",
+        "pump shown as system block; no invented impeller cutaway"
+      ],
+      "backend": "deterministic-diagram",
+      "width": 1600,
+      "height": 900,
+      "seed": 0,
+      "motion_policy": "symbolic indicators move; all metal geometry remains fixed",
+      "acceptance": [
+        "compare against master topology",
+        "no embedded text",
+        "check start/end at full resolution",
+        "professional approval required before video production"
+      ]
+    },
+    {
+      "shot_id": "SH007",
+      "duration_seconds": 6,
+      "master_id": "MASTER-COND-01-v1",
+      "focus": "structure",
+      "status": "DRAFT",
+      "script_sha256": "fb95bbbd6d66382c078e80b9255af7c3e5305f96ed7aad0d906738d5a719157b",
+      "master_sha256": "ea2927ebaf2cb8cab2176a1f1597ea949262a808364930c5254abcfb0b0b7874",
+      "evidence_ids": [
+        "S2"
+      ],
+      "start_state": "壳体、管束、管板、水室低强调",
+      "end_state": "依次强调固定结构",
+      "camera": "locked-off; no orbit, no mirror",
+      "start_keyframe": "keyframes/SH007/start.png",
+      "end_keyframe": "keyframes/SH007/end.png",
+      "editable_source": "keyframes/SH007/start.svg",
+      "overlay_text": "壳体／管束／管板／水室",
+      "negative_constraints": [
+        "sealed tube wall separates media",
+        "two end tube sheets separate waterboxes from shell",
+        "no cooling water route to hotwell",
+        "hotwell remains below tubes",
+        "air extraction branch separate from main steam inlet",
+        "six drawn tube tracks are symbolic, never claim actual tube count",
+        "no mirrored axes or viewpoint changes",
+        "pump shown as system block; no invented impeller cutaway"
+      ],
+      "backend": "deterministic-diagram",
+      "width": 1600,
+      "height": 900,
+      "seed": 0,
+      "motion_policy": "symbolic indicators move; all metal geometry remains fixed",
+      "acceptance": [
+        "compare against master topology",
+        "no embedded text",
+        "check start/end at full resolution",
+        "professional approval required before video production"
+      ]
+    },
+    {
+      "shot_id": "SH008",
+      "duration_seconds": 6,
+      "master_id": "MASTER-COND-01-v1",
+      "focus": "separation",
+      "status": "DRAFT",
+      "script_sha256": "fb95bbbd6d66382c078e80b9255af7c3e5305f96ed7aad0d906738d5a719157b",
+      "master_sha256": "ea2927ebaf2cb8cab2176a1f1597ea949262a808364930c5254abcfb0b0b7874",
+      "evidence_ids": [
+        "S2"
+      ],
+      "start_state": "两介质各在通道内",
+      "end_state": "保持分隔，同时强调",
+      "camera": "locked-off; no orbit, no mirror",
+      "start_keyframe": "keyframes/SH008/start.png",
+      "end_keyframe": "keyframes/SH008/end.png",
+      "editable_source": "keyframes/SH008/start.svg",
+      "overlay_text": "管外：蒸汽；管内：冷却水",
+      "negative_constraints": [
+        "sealed tube wall separates media",
+        "two end tube sheets separate waterboxes from shell",
+        "no cooling water route to hotwell",
+        "hotwell remains below tubes",
+        "air extraction branch separate from main steam inlet",
+        "six drawn tube tracks are symbolic, never claim actual tube count",
+        "no mirrored axes or viewpoint changes",
+        "pump shown as system block; no invented impeller cutaway"
+      ],
+      "backend": "deterministic-diagram",
+      "width": 1600,
+      "height": 900,
+      "seed": 0,
+      "motion_policy": "symbolic indicators move; all metal geometry remains fixed",
+      "acceptance": [
+        "compare against master topology",
+        "no embedded text",
+        "check start/end at full resolution",
+        "professional approval required before video production"
+      ]
+    },
+    {
+      "shot_id": "SH009",
+      "duration_seconds": 6,
+      "master_id": "MASTER-COND-01-v1",
+      "focus": "cooling",
+      "status": "DRAFT",
+      "script_sha256": "fb95bbbd6d66382c078e80b9255af7c3e5305f96ed7aad0d906738d5a719157b",
+      "master_sha256": "ea2927ebaf2cb8cab2176a1f1597ea949262a808364930c5254abcfb0b0b7874",
+      "evidence_ids": [
+        "S2"
+      ],
+      "start_state": "管内水流标记在左侧",
+      "end_state": "管内水流标记右移",
+      "camera": "locked-off; no orbit, no mirror",
+      "start_keyframe": "keyframes/SH009/start.png",
+      "end_keyframe": "keyframes/SH009/end.png",
+      "editable_source": "keyframes/SH009/start.svg",
+      "overlay_text": "冷却水在管内带热",
+      "negative_constraints": [
+        "sealed tube wall separates media",
+        "two end tube sheets separate waterboxes from shell",
+        "no cooling water route to hotwell",
+        "hotwell remains below tubes",
+        "air extraction branch separate from main steam inlet",
+        "six drawn tube tracks are symbolic, never claim actual tube count",
+        "no mirrored axes or viewpoint changes",
+        "pump shown as system block; no invented impeller cutaway"
+      ],
+      "backend": "deterministic-diagram",
+      "width": 1600,
+      "height": 900,
+      "seed": 0,
+      "motion_policy": "symbolic indicators move; all metal geometry remains fixed",
+      "acceptance": [
+        "compare against master topology",
+        "no embedded text",
+        "check start/end at full resolution",
+        "professional approval required before video production"
+      ]
+    },
+    {
+      "shot_id": "SH010",
+      "duration_seconds": 6,
+      "master_id": "MASTER-COND-01-v1",
+      "focus": "heat",
+      "status": "DRAFT",
+      "script_sha256": "fb95bbbd6d66382c078e80b9255af7c3e5305f96ed7aad0d906738d5a719157b",
+      "master_sha256": "ea2927ebaf2cb8cab2176a1f1597ea949262a808364930c5254abcfb0b0b7874",
+      "evidence_ids": [
+        "S3"
+      ],
+      "start_state": "蒸汽在管外接近壁面",
+      "end_state": "热流由外向内跨壁",
+      "camera": "locked-off; no orbit, no mirror",
+      "start_keyframe": "keyframes/SH010/start.png",
+      "end_keyframe": "keyframes/SH010/end.png",
+      "editable_source": "keyframes/SH010/start.svg",
+      "overlay_text": "蒸汽在管外凝结",
+      "negative_constraints": [
+        "sealed tube wall separates media",
+        "two end tube sheets separate waterboxes from shell",
+        "no cooling water route to hotwell",
+        "hotwell remains below tubes",
+        "air extraction branch separate from main steam inlet",
+        "six drawn tube tracks are symbolic, never claim actual tube count",
+        "no mirrored axes or viewpoint changes",
+        "pump shown as system block; no invented impeller cutaway"
+      ],
+      "backend": "deterministic-diagram",
+      "width": 1600,
+      "height": 900,
+      "seed": 0,
+      "motion_policy": "symbolic indicators move; all metal geometry remains fixed",
+      "acceptance": [
+        "compare against master topology",
+        "no embedded text",
+        "check start/end at full resolution",
+        "professional approval required before video production"
+      ]
+    },
+    {
+      "shot_id": "SH011",
+      "duration_seconds": 6,
+      "master_id": "MASTER-COND-01-v1",
+      "focus": "film",
+      "status": "DRAFT",
+      "script_sha256": "fb95bbbd6d66382c078e80b9255af7c3e5305f96ed7aad0d906738d5a719157b",
+      "master_sha256": "ea2927ebaf2cb8cab2176a1f1597ea949262a808364930c5254abcfb0b0b7874",
+      "evidence_ids": [
+        "S3"
+      ],
+      "start_state": "外壁薄膜已存在",
+      "end_state": "薄膜汇流，最低管外滴落",
+      "camera": "locked-off; no orbit, no mirror",
+      "start_keyframe": "keyframes/SH011/start.png",
+      "end_keyframe": "keyframes/SH011/end.png",
+      "editable_source": "keyframes/SH011/start.svg",
+      "overlay_text": "放出潜热；管外液膜汇流",
+      "negative_constraints": [
+        "sealed tube wall separates media",
+        "two end tube sheets separate waterboxes from shell",
+        "no cooling water route to hotwell",
+        "hotwell remains below tubes",
+        "air extraction branch separate from main steam inlet",
+        "six drawn tube tracks are symbolic, never claim actual tube count",
+        "no mirrored axes or viewpoint changes",
+        "pump shown as system block; no invented impeller cutaway"
+      ],
+      "backend": "deterministic-diagram",
+      "width": 1600,
+      "height": 900,
+      "seed": 0,
+      "motion_policy": "symbolic indicators move; all metal geometry remains fixed",
+      "acceptance": [
+        "compare against master topology",
+        "no embedded text",
+        "check start/end at full resolution",
+        "professional approval required before video production"
+      ]
+    }
+  ]
+}

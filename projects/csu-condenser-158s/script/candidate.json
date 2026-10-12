@@ -1,0 +1,827 @@
+{
+  "project_id": "csu-condenser-158s",
+  "title": "凝汽器与真空系统",
+  "active_stage": "script",
+  "total_seconds": 158,
+  "aspect_ratio": "16:9",
+  "source_sha256": "fe7f65367d829e4772a41925fd962b8ce08dbed66cf31759091dbbbfe287cfbe",
+  "approval": {
+    "status": "REVIEW",
+    "reviewer": null,
+    "candidate_sha256": null
+  },
+  "shots": [
+    {
+      "shot_id": "SH001",
+      "section": "悬念开场",
+      "start": "00:00",
+      "end": "00:06",
+      "duration_seconds": 6.0,
+      "narration": "你以为蒸汽在汽轮机里做完功，故事就结束了吗？",
+      "camera": "单一运镜；沿上一镜视觉对象承接",
+      "visual_prompt": "汽轮机总览；向排汽侧引导，保持设备示意性质。",
+      "overlay": "蒸汽做完功以后呢？",
+      "sound": "低频轰鸣＋音乐起势",
+      "production_method": "确定性示意图或经审核参考素材",
+      "script_status": "REVIEW",
+      "keyframe_status": "BLOCKED",
+      "clip_status": "BLOCKED",
+      "equipment_ids": [
+        "COND_01"
+      ],
+      "reference_files": [
+        "references/master-spec.json"
+      ],
+      "evidence_ids": [
+        "S1"
+      ],
+      "review_note": "开场问题无独立物理断言；蒸汽并非被用尽。",
+      "script": "你以为蒸汽在汽轮机里做完功，故事就结束了吗？",
+      "source_status": "DRAFT",
+      "receiver_in": "START",
+      "handoff_out": "下排汽布置示例",
+      "end_card_status": "NOT_APPLICABLE"
+    },
+    {
+      "shot_id": "SH002",
+      "section": "悬念开场",
+      "start": "00:06",
+      "end": "00:12",
+      "duration_seconds": 6.0,
+      "narration": "在这类机组中，凝汽器就布置在低压缸下方。",
+      "camera": "单一运镜；沿上一镜视觉对象承接",
+      "visual_prompt": "固定下排汽机组示例；连接低压缸和凝汽器。",
+      "overlay": "下排汽布置示例",
+      "sound": "金属揭示声",
+      "production_method": "确定性示意图或经审核参考素材",
+      "script_status": "REVIEW",
+      "keyframe_status": "BLOCKED",
+      "clip_status": "BLOCKED",
+      "equipment_ids": [
+        "COND_01"
+      ],
+      "reference_files": [
+        "references/master-spec.json"
+      ],
+      "evidence_ids": [
+        "S4"
+      ],
+      "review_note": "下方布置限定为本片示例，不能泛指所有汽轮机。",
+      "script": "在这类机组中，凝汽器就布置在低压缸下方。",
+      "source_status": "DRAFT",
+      "receiver_in": "蒸汽做完功以后呢？",
+      "handoff_out": "凝汽器与真空系统 · 第3组",
+      "end_card_status": "NOT_APPLICABLE"
+    },
+    {
+      "shot_id": "SH003",
+      "section": "悬念开场",
+      "start": "00:12",
+      "end": "00:18",
+      "duration_seconds": 6.0,
+      "narration": "这里，是凝汽器与真空系统。",
+      "camera": "固定全景/同轴局部裁切；不绕行、不镜像",
+      "visual_prompt": "首次展示 MASTER-COND-01-v1；固定二维纵剖面，取消环绕。",
+      "overlay": "凝汽器与真空系统 · 第3组",
+      "sound": "音乐节拍落点",
+      "production_method": "确定性示意图或经审核参考素材",
+      "script_status": "REVIEW",
+      "keyframe_status": "BLOCKED",
+      "clip_status": "BLOCKED",
+      "equipment_ids": [
+        "COND_01"
+      ],
+      "reference_files": [
+        "references/master-spec.json"
+      ],
+      "evidence_ids": [
+        "S2"
+      ],
+      "review_note": "用明确拓扑的教学示意图，禁止镜头环绕引起结构漂移。",
+      "script": "这里，是凝汽器与真空系统。",
+      "source_status": "DRAFT",
+      "receiver_in": "下排汽布置示例",
+      "handoff_out": "汽轮机排汽",
+      "end_card_status": "NOT_APPLICABLE"
+    },
+    {
+      "shot_id": "SH004",
+      "section": "问题提出",
+      "start": "00:18",
+      "end": "00:24",
+      "duration_seconds": 6.0,
+      "narration": "汽轮机排汽，仍有大量热量需要排出。",
+      "camera": "固定全景/同轴局部裁切；不绕行、不镜像",
+      "visual_prompt": "浅青流线从上方排汽接管进入壳侧；不画火焰或高速喷流。",
+      "overlay": "汽轮机排汽",
+      "sound": "低频蒸汽气流",
+      "production_method": "确定性示意图或经审核参考素材",
+      "script_status": "REVIEW",
+      "keyframe_status": "BLOCKED",
+      "clip_status": "BLOCKED",
+      "equipment_ids": [
+        "COND_01"
+      ],
+      "reference_files": [
+        "references/master-spec.json"
+      ],
+      "evidence_ids": [
+        "S1"
+      ],
+      "review_note": "排热含相变潜热；不引入未核实的热量数值。",
+      "script": "汽轮机排汽，仍有大量热量需要排出。",
+      "source_status": "DRAFT",
+      "receiver_in": "凝汽器与真空系统 · 第3组",
+      "handoff_out": "其他条件相近：背压高，膨胀受限",
+      "end_card_status": "NOT_APPLICABLE"
+    },
+    {
+      "shot_id": "SH005",
+      "section": "问题提出",
+      "start": "00:24",
+      "end": "00:30",
+      "duration_seconds": 6.0,
+      "narration": "其他条件相近时，背压偏高会限制膨胀做功。",
+      "camera": "固定全景/同轴局部裁切；不绕行、不镜像",
+      "visual_prompt": "同一透平示意两次复制，定性比较；不宣称普适出力百分比。",
+      "overlay": "其他条件相近：背压高，膨胀受限",
+      "sound": "轻微提示音",
+      "production_method": "确定性示意图或经审核参考素材",
+      "script_status": "REVIEW",
+      "keyframe_status": "BLOCKED",
+      "clip_status": "BLOCKED",
+      "equipment_ids": [
+        "COND_01"
+      ],
+      "reference_files": [
+        "references/master-spec.json"
+      ],
+      "evidence_ids": [
+        "S1"
+      ],
+      "review_note": "加入比较条件，避免忽略入口状态、效率和设计边界。",
+      "script": "其他条件相近时，背压偏高会限制膨胀做功。",
+      "source_status": "DRAFT",
+      "receiver_in": "汽轮机排汽",
+      "handoff_out": "目标：合理降低排汽压力",
+      "end_card_status": "NOT_APPLICABLE"
+    },
+    {
+      "shot_id": "SH006",
+      "section": "问题提出",
+      "start": "00:30",
+      "end": "00:36",
+      "duration_seconds": 6.0,
+      "narration": "凝汽器提供低压环境，帮助排汽继续膨胀。",
+      "camera": "固定全景/同轴局部裁切；不绕行、不镜像",
+      "visual_prompt": "沿上方接管下移到壳侧；主蒸汽进入管束外空间。",
+      "overlay": "目标：合理降低排汽压力",
+      "sound": "短促气流过渡",
+      "production_method": "确定性示意图或经审核参考素材",
+      "script_status": "REVIEW",
+      "keyframe_status": "BLOCKED",
+      "clip_status": "BLOCKED",
+      "equipment_ids": [
+        "COND_01"
+      ],
+      "reference_files": [
+        "references/master-spec.json"
+      ],
+      "evidence_ids": [
+        "S1"
+      ],
+      "review_note": "凝汽器降低背压；不能演成真空泵直接抽走全部排汽。",
+      "script": "凝汽器提供低压环境，帮助排汽继续膨胀。",
+      "source_status": "DRAFT",
+      "receiver_in": "其他条件相近：背压高，膨胀受限",
+      "handoff_out": "壳体／管束／管板／水室",
+      "end_card_status": "NOT_APPLICABLE"
+    },
+    {
+      "shot_id": "SH007",
+      "section": "内部结构",
+      "start": "00:36",
+      "end": "00:42",
+      "duration_seconds": 6.0,
+      "narration": "壳体内有冷却管束，两端设管板和水室。",
+      "camera": "固定全景/同轴局部裁切；不绕行、不镜像",
+      "visual_prompt": "母版全景逐项描边；保留上方蒸汽分配空间及下方热井。",
+      "overlay": "壳体／管束／管板／水室",
+      "sound": "剖面展开声",
+      "production_method": "确定性示意图或经审核参考素材",
+      "script_status": "REVIEW",
+      "keyframe_status": "BLOCKED",
+      "clip_status": "BLOCKED",
+      "equipment_ids": [
+        "COND_01"
+      ],
+      "reference_files": [
+        "references/master-spec.json"
+      ],
+      "evidence_ids": [
+        "S2"
+      ],
+      "review_note": "删去装满暗示；管束不填满壳体，管板密封隔开两侧。",
+      "script": "壳体内有冷却管束，两端设管板和水室。",
+      "source_status": "DRAFT",
+      "receiver_in": "目标：合理降低排汽压力",
+      "handoff_out": "管外：蒸汽；管内：冷却水",
+      "end_card_status": "NOT_APPLICABLE"
+    },
+    {
+      "shot_id": "SH008",
+      "section": "内部结构",
+      "start": "00:42",
+      "end": "00:48",
+      "duration_seconds": 6.0,
+      "narration": "蒸汽走管外，冷却水走管内，两者隔着管壁。",
+      "camera": "固定全景/同轴局部裁切；不绕行、不镜像",
+      "visual_prompt": "同一母版同时显示浅青壳侧和深蓝管内，边界固定。",
+      "overlay": "管外：蒸汽；管内：冷却水",
+      "sound": "双音色切换",
+      "production_method": "确定性示意图或经审核参考素材",
+      "script_status": "REVIEW",
+      "keyframe_status": "BLOCKED",
+      "clip_status": "BLOCKED",
+      "equipment_ids": [
+        "COND_01"
+      ],
+      "reference_files": [
+        "references/master-spec.json"
+      ],
+      "evidence_ids": [
+        "S2"
+      ],
+      "review_note": "两介质隔离是核心知识点；正常完整管壁情况下不混合。",
+      "script": "蒸汽走管外，冷却水走管内，两者隔着管壁。",
+      "source_status": "DRAFT",
+      "receiver_in": "壳体／管束／管板／水室",
+      "handoff_out": "冷却水在管内带热",
+      "end_card_status": "NOT_APPLICABLE"
+    },
+    {
+      "shot_id": "SH009",
+      "section": "冷凝原理",
+      "start": "00:48",
+      "end": "00:54",
+      "duration_seconds": 6.0,
+      "narration": "冷却水流经管内，带走管壁传来的热量。",
+      "camera": "固定全景/同轴局部裁切；不绕行、不镜像",
+      "visual_prompt": "左进水室到水平管内再到右出水室；热流箭头穿壁，介质不穿壁。",
+      "overlay": "冷却水在管内带热",
+      "sound": "水流低响",
+      "production_method": "确定性示意图或经审核参考素材",
+      "script_status": "REVIEW",
+      "keyframe_status": "BLOCKED",
+      "clip_status": "BLOCKED",
+      "equipment_ids": [
+        "COND_01"
+      ],
+      "reference_files": [
+        "references/master-spec.json"
+      ],
+      "evidence_ids": [
+        "S2"
+      ],
+      "review_note": "只画热量跨壁，不画水或蒸汽跨壁；单流程为本片选定示例。",
+      "script": "冷却水流经管内，带走管壁传来的热量。",
+      "source_status": "DRAFT",
+      "receiver_in": "管外：蒸汽；管内：冷却水",
+      "handoff_out": "蒸汽在管外凝结",
+      "end_card_status": "NOT_APPLICABLE"
+    },
+    {
+      "shot_id": "SH010",
+      "section": "冷凝原理",
+      "start": "00:54",
+      "end": "01:00",
+      "duration_seconds": 6.0,
+      "narration": "管外蒸汽向较冷的管壁放热，发生凝结。",
+      "camera": "固定全景/同轴局部裁切；不绕行、不镜像",
+      "visual_prompt": "聚焦代表管；外侧浅青、金属壁、内侧深蓝分层清楚。",
+      "overlay": "蒸汽在管外凝结",
+      "sound": "柔和蒸汽声",
+      "production_method": "确定性示意图或经审核参考素材",
+      "script_status": "REVIEW",
+      "keyframe_status": "BLOCKED",
+      "clip_status": "BLOCKED",
+      "equipment_ids": [
+        "COND_01"
+      ],
+      "reference_files": [
+        "references/master-spec.json"
+      ],
+      "evidence_ids": [
+        "S3"
+      ],
+      "review_note": "较冷是相对凝结蒸汽温度；颜色是编码，非真实温度刻度。",
+      "script": "管外蒸汽向较冷的管壁放热，发生凝结。",
+      "source_status": "DRAFT",
+      "receiver_in": "冷却水在管内带热",
+      "handoff_out": "放出潜热；管外液膜汇流",
+      "end_card_status": "NOT_APPLICABLE"
+    },
+    {
+      "shot_id": "SH011",
+      "section": "冷凝原理",
+      "start": "01:00",
+      "end": "01:06",
+      "duration_seconds": 6.0,
+      "narration": "蒸汽释放潜热，凝结水沿管外液膜汇流。",
+      "camera": "固定全景/同轴局部裁切；不绕行、不镜像",
+      "visual_prompt": "管外金色薄膜汇流，在最低可见管下缘滴落；不表现纯珠状铺满。",
+      "overlay": "放出潜热；管外液膜汇流",
+      "sound": "细密水滴声",
+      "production_method": "确定性示意图或经审核参考素材",
+      "script_status": "REVIEW",
+      "keyframe_status": "BLOCKED",
+      "clip_status": "BLOCKED",
+      "equipment_ids": [
+        "COND_01"
+      ],
+      "reference_files": [
+        "references/master-spec.json"
+      ],
+      "evidence_ids": [
+        "S3"
+      ],
+      "review_note": "膜状与珠状取决于润湿和表面条件；本片用膜状示意，滴落不等于珠状凝结。",
+      "script": "蒸汽释放潜热，凝结水沿管外液膜汇流。",
+      "source_status": "DRAFT",
+      "receiver_in": "蒸汽在管外凝结",
+      "handoff_out": "同质量：气变液，体积缩小",
+      "end_card_status": "NOT_APPLICABLE"
+    },
+    {
+      "shot_id": "SH012",
+      "section": "冷凝原理",
+      "start": "01:06",
+      "end": "01:12",
+      "duration_seconds": 6.0,
+      "narration": "同样质量的蒸汽凝成水，占据的体积显著减小。",
+      "camera": "单一运镜；沿上一镜视觉对象承接",
+      "visual_prompt": "抽象同质量气液体积对比，固定容器轮廓；不标虚构倍率。",
+      "overlay": "同质量：气变液，体积缩小",
+      "sound": "收缩轻音",
+      "production_method": "确定性示意图或经审核参考素材",
+      "script_status": "REVIEW",
+      "keyframe_status": "BLOCKED",
+      "clip_status": "BLOCKED",
+      "equipment_ids": [
+        "COND_01"
+      ],
+      "reference_files": [
+        "references/master-spec.json"
+      ],
+      "evidence_ids": [
+        "S1"
+      ],
+      "review_note": "体积比较基于给定状态；示意面积不作数值比例。",
+      "script": "同样质量的蒸汽凝成水，占据的体积显著减小。",
+      "source_status": "DRAFT",
+      "receiver_in": "放出潜热；管外液膜汇流",
+      "handoff_out": "凝结维持低压；温度与气体影响压力",
+      "end_card_status": "NOT_APPLICABLE"
+    },
+    {
+      "shot_id": "SH013",
+      "section": "真空原理",
+      "start": "01:12",
+      "end": "01:18",
+      "duration_seconds": 6.0,
+      "narration": "持续凝结帮助形成低压，压力也受温度等影响。",
+      "camera": "单一运镜；沿上一镜视觉对象承接",
+      "visual_prompt": "壳侧始终保留浅青水蒸气；定性绝对压力条，禁止抽空画面。",
+      "overlay": "凝结维持低压；温度与气体影响压力",
+      "sound": "柔和下行音",
+      "production_method": "确定性示意图或经审核参考素材",
+      "script_status": "REVIEW",
+      "keyframe_status": "BLOCKED",
+      "clip_status": "BLOCKED",
+      "equipment_ids": [
+        "COND_01"
+      ],
+      "reference_files": [
+        "references/master-spec.json"
+      ],
+      "evidence_ids": [
+        "S1"
+      ],
+      "review_note": "蒸汽分压不能仅按凝结量无限下降；近饱和平衡取决于温度，不凝结气体贡献分压。",
+      "script": "持续凝结帮助形成低压，压力也受温度等影响。",
+      "source_status": "DRAFT",
+      "receiver_in": "同质量：气变液，体积缩小",
+      "handoff_out": "低于大气压；仍有水蒸气",
+      "end_card_status": "NOT_APPLICABLE"
+    },
+    {
+      "shot_id": "SH014",
+      "section": "真空原理",
+      "start": "01:18",
+      "end": "01:24",
+      "duration_seconds": 6.0,
+      "narration": "这里的真空是低于大气压，内部仍有水蒸气。",
+      "camera": "单一运镜；沿上一镜视觉对象承接",
+      "visual_prompt": "大气压与壳侧绝对压力定性比较；青色水蒸气点始终存在。",
+      "overlay": "低于大气压；仍有水蒸气",
+      "sound": "短促提示音",
+      "production_method": "确定性示意图或经审核参考素材",
+      "script_status": "REVIEW",
+      "keyframe_status": "BLOCKED",
+      "clip_status": "BLOCKED",
+      "equipment_ids": [
+        "COND_01"
+      ],
+      "reference_files": [
+        "references/master-spec.json"
+      ],
+      "evidence_ids": [
+        "S1"
+      ],
+      "review_note": "真空不等于无蒸汽或零绝对压力；避免负绝对压力仪表。",
+      "script": "这里的真空是低于大气压，内部仍有水蒸气。",
+      "source_status": "DRAFT",
+      "receiver_in": "凝结维持低压；温度与气体影响压力",
+      "handoff_out": "不凝结气体，例如空气",
+      "end_card_status": "NOT_APPLICABLE"
+    },
+    {
+      "shot_id": "SH015",
+      "section": "真空原理",
+      "start": "01:24",
+      "end": "01:30",
+      "duration_seconds": 6.0,
+      "narration": "密封处可能漏入空气等不凝结气体。",
+      "camera": "单一运镜；沿上一镜视觉对象承接",
+      "visual_prompt": "微小接缝漏入灰色点；无爆裂孔洞；灰点仅为教学符号。",
+      "overlay": "不凝结气体，例如空气",
+      "sound": "轻气流提示",
+      "production_method": "确定性示意图或经审核参考素材",
+      "script_status": "REVIEW",
+      "keyframe_status": "BLOCKED",
+      "clip_status": "BLOCKED",
+      "equipment_ids": [
+        "COND_01"
+      ],
+      "reference_files": [
+        "references/master-spec.json"
+      ],
+      "evidence_ids": [
+        "S2"
+      ],
+      "review_note": "漏气是来源之一，不断言唯一来源；低压侧可吸入环境空气。",
+      "script": "密封处可能漏入空气等不凝结气体。",
+      "source_status": "DRAFT",
+      "receiver_in": "低于大气压；仍有水蒸气",
+      "handoff_out": "积气：换热受阻，绝对压力升高",
+      "end_card_status": "NOT_APPLICABLE"
+    },
+    {
+      "shot_id": "SH016",
+      "section": "真空原理",
+      "start": "01:30",
+      "end": "01:36",
+      "duration_seconds": 6.0,
+      "narration": "这些气体积聚，会妨碍换热、使压力升高。",
+      "camera": "单一运镜；沿上一镜视觉对象承接",
+      "visual_prompt": "壳侧局部灰点增加；管束保持；绝对压力条升高，无烟尘特效。",
+      "overlay": "积气：换热受阻，绝对压力升高",
+      "sound": "低沉警示音",
+      "production_method": "确定性示意图或经审核参考素材",
+      "script_status": "REVIEW",
+      "keyframe_status": "BLOCKED",
+      "clip_status": "BLOCKED",
+      "equipment_ids": [
+        "COND_01"
+      ],
+      "reference_files": [
+        "references/master-spec.json"
+      ],
+      "evidence_ids": [
+        "S1",
+        "S3"
+      ],
+      "review_note": "区分绝对压力上升与真空程度下降，避免含混真空表方向。",
+      "script": "这些气体积聚，会妨碍换热、使压力升高。",
+      "source_status": "DRAFT",
+      "receiver_in": "不凝结气体，例如空气",
+      "handoff_out": "水环真空泵示例；也可采用蒸汽喷射等方案",
+      "end_card_status": "NOT_APPLICABLE"
+    },
+    {
+      "shot_id": "SH017",
+      "section": "抽气系统",
+      "start": "01:36",
+      "end": "01:42",
+      "duration_seconds": 6.0,
+      "narration": "抽气设备排除这些气体，这里以水环泵为例。",
+      "camera": "单一运镜；沿上一镜视觉对象承接",
+      "visual_prompt": "独立空气抽除支路至水环泵系统方框；混合流含少量浅青水蒸气。",
+      "overlay": "水环真空泵示例；也可采用蒸汽喷射等方案",
+      "sound": "电机低频运转",
+      "production_method": "确定性示意图或经审核参考素材",
+      "script_status": "REVIEW",
+      "keyframe_status": "BLOCKED",
+      "clip_status": "BLOCKED",
+      "equipment_ids": [
+        "COND_01"
+      ],
+      "reference_files": [
+        "references/master-spec.json"
+      ],
+      "evidence_ids": [
+        "S2",
+        "S5"
+      ],
+      "review_note": "不是全部机组必用水环泵；抽除气体含水蒸气，不能画为纯空气。",
+      "script": "抽气设备排除这些气体，这里以水环泵为例。",
+      "source_status": "DRAFT",
+      "receiver_in": "积气：换热受阻，绝对压力升高",
+      "handoff_out": "冷凝＋抽气＋密封",
+      "end_card_status": "NOT_APPLICABLE"
+    },
+    {
+      "shot_id": "SH018",
+      "section": "抽气系统",
+      "start": "01:42",
+      "end": "01:48",
+      "duration_seconds": 6.0,
+      "narration": "冷凝、抽气与严密密封，共同维持低压。",
+      "camera": "单一运镜；沿上一镜视觉对象承接",
+      "visual_prompt": "管外凝结持续，抽气支路少量混合气离开；水室边界不动。",
+      "overlay": "冷凝＋抽气＋密封",
+      "sound": "音乐进入稳定节奏",
+      "production_method": "确定性示意图或经审核参考素材",
+      "script_status": "REVIEW",
+      "keyframe_status": "BLOCKED",
+      "clip_status": "BLOCKED",
+      "equipment_ids": [
+        "COND_01"
+      ],
+      "reference_files": [
+        "references/master-spec.json"
+      ],
+      "evidence_ids": [
+        "S1",
+        "S2"
+      ],
+      "review_note": "维持还需冷却、排凝等条件；字幕避免把两个过程写成充分等式。",
+      "script": "冷凝、抽气与严密密封，共同维持低压。",
+      "source_status": "DRAFT",
+      "receiver_in": "水环真空泵示例；也可采用蒸汽喷射等方案",
+      "handoff_out": "热井收集凝结水",
+      "end_card_status": "NOT_APPLICABLE"
+    },
+    {
+      "shot_id": "SH019",
+      "section": "凝结水回收",
+      "start": "01:48",
+      "end": "01:54",
+      "duration_seconds": 6.0,
+      "narration": "凝结水汇入底部热井，保持适当水位。",
+      "camera": "单一运镜；沿上一镜视觉对象承接",
+      "visual_prompt": "最低管外滴流落入金色热井；液位低于管束；保留热井出口。",
+      "overlay": "热井收集凝结水",
+      "sound": "滴水和柔和水流",
+      "production_method": "确定性示意图或经审核参考素材",
+      "script_status": "REVIEW",
+      "keyframe_status": "BLOCKED",
+      "clip_status": "BLOCKED",
+      "equipment_ids": [
+        "COND_01"
+      ],
+      "reference_files": [
+        "references/master-spec.json"
+      ],
+      "evidence_ids": [
+        "S1",
+        "S2"
+      ],
+      "review_note": "热井水位应控制，不演成不断充满直至淹管。",
+      "script": "凝结水汇入底部热井，保持适当水位。",
+      "source_status": "DRAFT",
+      "receiver_in": "冷凝＋抽气＋密封",
+      "handoff_out": "典型路径：热井→凝结水泵→回热→给水系统",
+      "end_card_status": "NOT_APPLICABLE"
+    },
+    {
+      "shot_id": "SH020",
+      "section": "凝结水回收",
+      "start": "01:54",
+      "end": "02:00",
+      "duration_seconds": 6.0,
+      "narration": "凝结水泵送水经过回热环节，再进入给水系统。",
+      "camera": "单一运镜；沿上一镜视觉对象承接",
+      "visual_prompt": "热井、凝结水泵、低加、除氧器、给水泵、锅炉方框序列；细节为常规示意。",
+      "overlay": "典型路径：热井→凝结水泵→回热→给水系统",
+      "sound": "水泵启动声",
+      "production_method": "确定性示意图或经审核参考素材",
+      "script_status": "REVIEW",
+      "keyframe_status": "BLOCKED",
+      "clip_status": "BLOCKED",
+      "equipment_ids": [
+        "COND_01"
+      ],
+      "reference_files": [
+        "references/master-spec.json"
+      ],
+      "evidence_ids": [
+        "S1"
+      ],
+      "review_note": "给水泵等不能被省略成凝结水泵直接送锅炉；具体机组配置仍需核实。",
+      "script": "凝结水泵送水经过回热环节，再进入给水系统。",
+      "source_status": "DRAFT",
+      "receiver_in": "热井收集凝结水",
+      "handoff_out": "本片采用循环冷却示例",
+      "end_card_status": "NOT_APPLICABLE"
+    },
+    {
+      "shot_id": "SH021",
+      "section": "双回路关系",
+      "start": "02:00",
+      "end": "02:06",
+      "duration_seconds": 6.0,
+      "narration": "本片循环冷却水吸热后，返回外部冷却系统。",
+      "camera": "单一运镜；沿上一镜视觉对象承接",
+      "visual_prompt": "同一母版右出水室深蓝水流至外部冷却系统方框；不强行画塔。",
+      "overlay": "本片采用循环冷却示例",
+      "sound": "水流环境音",
+      "production_method": "确定性示意图或经审核参考素材",
+      "script_status": "REVIEW",
+      "keyframe_status": "BLOCKED",
+      "clip_status": "BLOCKED",
+      "equipment_ids": [
+        "COND_01"
+      ],
+      "reference_files": [
+        "references/master-spec.json"
+      ],
+      "evidence_ids": [
+        "S1"
+      ],
+      "review_note": "机组可能采用直流冷却，返回冷却系统仅为本片回路选择。",
+      "script": "本片循环冷却水吸热后，返回外部冷却系统。",
+      "source_status": "DRAFT",
+      "receiver_in": "典型路径：热井→凝结水泵→回热→给水系统",
+      "handoff_out": "凝结水回收；冷却水带热",
+      "end_card_status": "NOT_APPLICABLE"
+    },
+    {
+      "shot_id": "SH022",
+      "section": "双回路关系",
+      "start": "02:06",
+      "end": "02:12",
+      "duration_seconds": 6.0,
+      "narration": "正常运行时，两路水由管壁隔开，任务不同。",
+      "camera": "单一运镜；沿上一镜视觉对象承接",
+      "visual_prompt": "金色热井回收路径和深蓝管内冷却路径分屏对照；无交汇点。",
+      "overlay": "凝结水回收；冷却水带热",
+      "sound": "节拍对比音",
+      "production_method": "确定性示意图或经审核参考素材",
+      "script_status": "REVIEW",
+      "keyframe_status": "BLOCKED",
+      "clip_status": "BLOCKED",
+      "equipment_ids": [
+        "COND_01"
+      ],
+      "reference_files": [
+        "references/master-spec.json"
+      ],
+      "evidence_ids": [
+        "S2"
+      ],
+      "review_note": "正常管壁完整时隔离；不否认管泄漏故障可能造成污染。",
+      "script": "正常运行时，两路水由管壁隔开，任务不同。",
+      "source_status": "DRAFT",
+      "receiver_in": "本片采用循环冷却示例",
+      "handoff_out": "设计允许范围内：合理低背压",
+      "end_card_status": "NOT_APPLICABLE"
+    },
+    {
+      "shot_id": "SH023",
+      "section": "意义与边界",
+      "start": "02:12",
+      "end": "02:18",
+      "duration_seconds": 6.0,
+      "narration": "在设计允许范围内，合理低背压有利于做功。",
+      "camera": "单一运镜；沿上一镜视觉对象承接",
+      "visual_prompt": "定性透平膨胀对照，设计范围文字独立后期；不无限增加趋势。",
+      "overlay": "设计允许范围内：合理低背压",
+      "sound": "音乐逐步抬升",
+      "production_method": "确定性示意图或经审核参考素材",
+      "script_status": "REVIEW",
+      "keyframe_status": "BLOCKED",
+      "clip_status": "BLOCKED",
+      "equipment_ids": [
+        "COND_01"
+      ],
+      "reference_files": [
+        "references/master-spec.json"
+      ],
+      "evidence_ids": [
+        "S1"
+      ],
+      "review_note": "非真空越高越好；不编造最佳压力或效率。",
+      "script": "在设计允许范围内，合理低背压有利于做功。",
+      "source_status": "DRAFT",
+      "receiver_in": "凝结水回收；冷却水带热",
+      "handoff_out": "冷却不足／漏气：真空可能恶化",
+      "end_card_status": "NOT_APPLICABLE"
+    },
+    {
+      "shot_id": "SH024",
+      "section": "意义与边界",
+      "start": "02:18",
+      "end": "02:24",
+      "duration_seconds": 6.0,
+      "narration": "冷却不足、空气漏入，都可能使真空恶化。",
+      "camera": "单一运镜；沿上一镜视觉对象承接",
+      "visual_prompt": "两个示意原因汇向绝对压力上升图标；只讲趋势，不诊断真实机组。",
+      "overlay": "冷却不足／漏气：真空可能恶化",
+      "sound": "轻警示音，不盖人声",
+      "production_method": "确定性示意图或经审核参考素材",
+      "script_status": "REVIEW",
+      "keyframe_status": "BLOCKED",
+      "clip_status": "BLOCKED",
+      "equipment_ids": [
+        "COND_01"
+      ],
+      "reference_files": [
+        "references/master-spec.json"
+      ],
+      "evidence_ids": [
+        "S1",
+        "S2"
+      ],
+      "review_note": "故障原因不是穷尽列表，禁止误当操作指导。",
+      "script": "冷却不足、空气漏入，都可能使真空恶化。",
+      "source_status": "DRAFT",
+      "receiver_in": "设计允许范围内：合理低背压",
+      "handoff_out": "冷凝 · 抽气 · 回收",
+      "end_card_status": "NOT_APPLICABLE"
+    },
+    {
+      "shot_id": "SH025",
+      "section": "总结升华",
+      "start": "02:24",
+      "end": "02:30",
+      "duration_seconds": 6.0,
+      "narration": "冷凝、抽气、回收，共同服务机组运行。",
+      "camera": "单一运镜；沿上一镜视觉对象承接",
+      "visual_prompt": "回母版全景；三条路径依次高亮，保持此前设备位置。",
+      "overlay": "冷凝 · 抽气 · 回收",
+      "sound": "BGM收束＋柔和定音",
+      "production_method": "确定性示意图或经审核参考素材",
+      "script_status": "REVIEW",
+      "keyframe_status": "BLOCKED",
+      "clip_status": "BLOCKED",
+      "equipment_ids": [
+        "COND_01"
+      ],
+      "reference_files": [
+        "references/master-spec.json"
+      ],
+      "evidence_ids": [
+        "S1",
+        "S2"
+      ],
+      "review_note": "收束三条主线；不宣称已证明实际节能幅度。",
+      "script": "冷凝、抽气、回收，共同服务机组运行。",
+      "source_status": "DRAFT",
+      "receiver_in": "冷却不足／漏气：真空可能恶化",
+      "handoff_out": "感谢观看｜凝汽器与真空系统｜第3组制作｜成员：待提供",
+      "end_card_status": "NOT_APPLICABLE"
+    },
+    {
+      "shot_id": "SH026",
+      "section": "正式片尾",
+      "start": "02:30",
+      "end": "02:38",
+      "duration_seconds": 8.0,
+      "narration": "",
+      "camera": "单一运镜；沿上一镜视觉对象承接",
+      "visual_prompt": "暗色设备轮廓淡出；8秒后期片尾，无旁白。",
+      "overlay": "感谢观看｜凝汽器与真空系统｜第3组制作｜成员：待提供",
+      "sound": "纯BGM淡出，不再配音",
+      "production_method": "确定性示意图或经审核参考素材",
+      "script_status": "REVIEW",
+      "keyframe_status": "BLOCKED",
+      "clip_status": "BLOCKED",
+      "equipment_ids": [
+        "COND_01"
+      ],
+      "reference_files": [
+        "references/master-spec.json"
+      ],
+      "evidence_ids": [
+        "EDITORIAL"
+      ],
+      "review_note": "片尾保留8秒；姓名未提供，不编造署名。",
+      "script": "8秒无旁白片尾：后期独立叠加片名与真实署名",
+      "source_status": "DRAFT",
+      "receiver_in": "冷凝 · 抽气 · 回收",
+      "handoff_out": "END",
+      "end_card_status": "NEEDS_REAL_NAMES"
+    }
+  ]
+}
