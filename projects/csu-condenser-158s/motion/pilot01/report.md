@@ -65,3 +65,7 @@ python scripts/render_motion_pilot.py --font /absolute/path/NotoSansCJKsc-Regula
 ## 已执行验证
 
 28项标准库单元测试通过（含新增输入变化、越界扩批、时长变化、有效条件授权四项）；真实26镜158秒候选校验通过；对实际film-keyframes/batch01-v1目录运行六PNG哈希/brief/prompt/provenance校验通过。visual/batch01-v1是Git文本索引，不含PNG，不作为媒体校验路径。FFprobe实测18秒432帧1080p；全432帧解码成功；九张MP4解码首中尾画面已打开检查；六PNG原哈希未变。相同像素算法在代码门禁重构后重新编码，MP4 SHA256仍相同；同参数再次执行复用而不重复生成。三系统CI对首批PNG规范集成已通过；新动画代码CI结论在publication.json另记，不能用旧CI宣称新代码通过。
+
+## 后续人工验收：FAIL（2026-10-12）
+
+用户直接检查MP4，确认参数符合但镜头内部基本静止，变化主要集中在切镜点。本报告原机器/AI观察不构成动画质量通过，现明确退回动态工序；对应视频保留为失败版本。原permit已撤销，当前返工仅见pilot02。

@@ -22,3 +22,5 @@ If lower levels disagree with higher levels, fix the lower level; never silently
 - Six batch01 PNGs are conditionally accepted for local correction and only the 18-second SH009–SH011 motion trial; professional final signoff is not fabricated. Stop after the pilot.
 - Never execute paid jobs without explicit spend approval.
 - Validate after each integration: `python -m unittest discover -s tests -v`; for the real pilot follow `docs/ops/production-acceptance.md`.
+
+Latest motion result: pilot01 **FAIL by direct user viewing**. Only pilot02 motion-layer rework is authorized; preserve six accepted PNGs, no paid service, no expanded batch. Stop for retest after 18 seconds. Camera-off flow evidence is required; static framing plus symbols is not animation acceptance.

@@ -1,0 +1,4 @@
+﻿shot_id,start_s,end_s,metal_plate,keyframe_role,narration
+SH009,0,6,SH009,immutable art plate,冷却水流经管内，带走管壁传来的热量。
+SH010,6,12,SH010 shared through SH011,immutable art plate,管外蒸汽向较冷的管壁放热，发生凝结。
+SH011,12,18,SH010 shared through SH011,film reference + rebuilt liquid layer,蒸汽释放潜热，凝结水沿管外液膜汇流。

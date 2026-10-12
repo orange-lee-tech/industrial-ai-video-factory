@@ -14,5 +14,6 @@
   "minimum_frame_mean_luma": 180.80902777777777,
   "source_hashes_unchanged": true,
   "ai_visual_review": "Nine decoded frames inspected; no obvious shape drift or symbol crossing coolant boundary; local film patches remain human-review items.",
-  "human_acceptance": "PENDING"
+  "human_acceptance": "FAIL",
+  "subsequent_user_review": "Insufficient internal motion; prior AI visual observations did not establish animation acceptance."
 }

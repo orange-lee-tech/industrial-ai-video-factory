@@ -1,0 +1,73 @@
+{
+  "decode_status": "COMPLETE",
+  "main_frames": 432,
+  "control_frames": 144,
+  "metrics_units": "8-bit grayscale absolute difference; half-resolution actual decoded frames, cuts excluded",
+  "metrics": {
+    "SH009": {
+      "actual_main_adjacent_gray_MAD_960x540": 5.718459606170654,
+      "camera_off_adjacent_gray_MAD_960x540": 0.8671091794967651,
+      "camera_off_water_ROI_adjacent_gray_MAD": 3.706433057785034,
+      "camera_off_structure_ROI_MAD": 0.00029019638895988464,
+      "camera_off_background_ROI_MAD": 0.00012056737614329904,
+      "water_shift_median_px_per_frame_at_half_resolution": 6.0,
+      "positive_shift_frames": 47,
+      "measured_pairs": 47
+    },
+    "SH010": {
+      "actual_main_adjacent_gray_MAD_960x540": 4.098453044891357,
+      "camera_off_adjacent_gray_MAD_960x540": 2.2150990962982178,
+      "camera_off_water_ROI_adjacent_gray_MAD": 13.763700485229492,
+      "camera_off_structure_ROI_MAD": 0.03259001672267914,
+      "camera_off_background_ROI_MAD": 0.0,
+      "water_shift_median_px_per_frame_at_half_resolution": 5.0,
+      "positive_shift_frames": 47,
+      "measured_pairs": 47
+    },
+    "SH011": {
+      "actual_main_adjacent_gray_MAD_960x540": 2.939481019973755,
+      "camera_off_adjacent_gray_MAD_960x540": 2.283592700958252,
+      "camera_off_water_ROI_adjacent_gray_MAD": 12.690447807312012,
+      "camera_off_structure_ROI_MAD": 0.03844108060002327,
+      "camera_off_background_ROI_MAD": 0.0,
+      "water_shift_median_px_per_frame_at_half_resolution": 5.0,
+      "positive_shift_frames": 47,
+      "measured_pairs": 47
+    },
+    "SH010_heat": {
+      "ROI_gray_MAD_camera_off": 0.5898227691650391
+    },
+    "SH011_film": {
+      "ROI_gray_MAD_camera_off": 0.772871196269989
+    }
+  },
+  "mask_checks": {
+    "vapor_coolant_overlap_pixels": 0,
+    "film_coolant_overlap_pixels": 0
+  },
+  "source_metrics_before_camera": {
+    "SH009": {
+      "SH009_background_MAD": 0.0,
+      "SH009_structure_MAD": 0.0,
+      "SH009_water_MAD": 3.844945279347518,
+      "scene_gray_MAD": 1.0582208681562342
+    },
+    "SH010": {
+      "SH010_background_MAD": 0.0,
+      "SH010_structure_MAD": 0.0,
+      "SH010_vapor_MAD": 0.8976820448517,
+      "SH010_water_MAD": 14.555135172534232,
+      "scene_gray_MAD": 2.5170284749283276
+    },
+    "SH011": {
+      "SH011_background_MAD": 0.0,
+      "SH011_film_MAD": 0.795897398703447,
+      "SH011_structure_MAD": 0.0,
+      "SH011_vapor_MAD": 0.9328294660397074,
+      "SH011_water_MAD": 14.097155254707696,
+      "scene_gray_MAD": 2.5785427570576815
+    }
+  },
+  "human_acceptance": "PENDING_RETEST",
+  "warning": "Motion magnitude is not artistic or engineering acceptance. Compare original full MP4, not only metrics."
+}

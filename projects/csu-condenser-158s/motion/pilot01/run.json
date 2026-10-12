@@ -1,5 +1,5 @@
 {
-  "status": "ENCODED_AWAITING_HUMAN_REVIEW",
+  "status": "ENCODED_REJECTED_BY_USER",
   "render_key": "faf500bd19b2c2a0f5cb4a7fb85bc30eb7b82ddfad523f1e8d11ad28961ae38b",
   "backend": "fixed-raster-film-v1",
   "script_sha256": "fb95bbbd6d66382c078e80b9255af7c3e5305f96ed7aad0d906738d5a719157b",
@@ -130,5 +130,7 @@
       "film_end": 66,
       "narration": "蒸汽释放潜热，凝结水沿管外液膜汇流。"
     }
-  ]
+  ],
+  "human_acceptance": "FAIL",
+  "human_review_record": "human-review.json"
 }

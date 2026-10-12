@@ -1,0 +1,175 @@
+{
+  "status": "ENCODED_PENDING_HUMAN_RETEST",
+  "key": "5f6e0c4bfe97c4c847b4b9a941b4a631da3efa1e86e72bc95f3408ec2262ea3f",
+  "backend": "raster-advection-film-v2",
+  "inputs": {
+    "SH003": "478bedf93251d0419d825dd4837677d95cf80d4ce4e9639c7de56af15cf712cd",
+    "SH007": "cff140f8b3c4cde38df614801926ae35639fb848fadb9d190fd30c98df6c8581",
+    "SH008": "3288c418efa722bf00bc920b4c24b21364f145de1d5b3bf0741a3c78c333157f",
+    "SH009": "53aa8e1f26aa7c3016ebaab7bf80796c83039fda95706b2584d73a63bc991434",
+    "SH010": "74761affd8d6fdcdd462b8dac6714e261bbd34825c367647899e5463c5c2b7eb",
+    "SH011": "e5dbeb1d1be82954f9246a539364c25b067d1a7c20fa1458ae06a4e5bd63db8c"
+  },
+  "script_sha256": "fb95bbbd6d66382c078e80b9255af7c3e5305f96ed7aad0d906738d5a719157b",
+  "permit_sha256": "fb72e6c5adee57adcb37140f3bc662c07fa10c45d1c0abd8a800d5d86dfce6c8",
+  "renderer_sha256": "99fae901b6b05654d088afa2116c8b94d0e64e543c5e86942d864deba9f2f1d6",
+  "font_sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+  "fps": 24,
+  "size": [
+    1920,
+    1080
+  ],
+  "paid_calls": 0,
+  "video_sha256": "ceb1eda9f25045623570bc081bbbea5a8e1f7744aa4c33c68cee129f9c2a5a13",
+  "probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "width": 1920,
+        "height": 1080,
+        "coded_width": 1920,
+        "coded_height": 1080,
+        "closed_captions": 0,
+        "film_grain": 0,
+        "has_b_frames": 2,
+        "pix_fmt": "yuv420p",
+        "level": 40,
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "refs": 1,
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "time_base": "1/12288",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 221184,
+        "duration": "18.000000",
+        "bit_rate": "4406024",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "432",
+        "extradata_size": 47,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "vendor_id": "[0][0][0][0]",
+          "encoder": "Lavc60.31.102 libx264"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/workspace/scratch/2d2a9b46ae4c/delivery/motion-rework02-final/render.partial.mp4",
+      "nb_streams": 1,
+      "nb_programs": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "18.000000",
+      "size": "9919692",
+      "bit_rate": "4408752",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf60.16.100"
+      }
+    }
+  },
+  "motion_metrics_before_camera": {
+    "SH009": {
+      "SH009_background_MAD": 0.0,
+      "SH009_structure_MAD": 0.0,
+      "SH009_water_MAD": 3.844945279347518,
+      "scene_gray_MAD": 1.0582208681562342
+    },
+    "SH010": {
+      "SH010_background_MAD": 0.0,
+      "SH010_structure_MAD": 0.0,
+      "SH010_vapor_MAD": 0.8976820448517,
+      "SH010_water_MAD": 14.555135172534232,
+      "scene_gray_MAD": 2.5170284749283276
+    },
+    "SH011": {
+      "SH011_background_MAD": 0.0,
+      "SH011_film_MAD": 0.795897398703447,
+      "SH011_structure_MAD": 0.0,
+      "SH011_vapor_MAD": 0.9328294660397074,
+      "SH011_water_MAD": 14.097155254707696,
+      "scene_gray_MAD": 2.5785427570576815
+    }
+  },
+  "source_immutability": true,
+  "camera_off_video_sha256": "9606cbe3de7954c016f205565432b9b324a4ce9040d7cbf23c29c9baafaf8a84",
+  "mask_checks": {
+    "vapor_coolant_overlap_pixels": 0,
+    "film_coolant_overlap_pixels": 0
+  },
+  "human_acceptance": "PENDING",
+  "physical_simulation": false,
+  "mapping": [
+    {
+      "shot_id": "SH009",
+      "start": 0,
+      "end": 6,
+      "film_start": 48,
+      "film_end": 54,
+      "narration": "冷却水流经管内，带走管壁传来的热量。",
+      "metal_plate": "SH009",
+      "keyframe_role": "immutable art plate"
+    },
+    {
+      "shot_id": "SH010",
+      "start": 6,
+      "end": 12,
+      "film_start": 54,
+      "film_end": 60,
+      "narration": "管外蒸汽向较冷的管壁放热，发生凝结。",
+      "metal_plate": "SH010 shared through SH011",
+      "keyframe_role": "immutable art plate"
+    },
+    {
+      "shot_id": "SH011",
+      "start": 12,
+      "end": 18,
+      "film_start": 60,
+      "film_end": 66,
+      "narration": "蒸汽释放潜热，凝结水沿管外液膜汇流。",
+      "metal_plate": "SH010 shared through SH011",
+      "keyframe_role": "film reference + rebuilt liquid layer"
+    }
+  ],
+  "dependencies": {
+    "numpy": "2.3.5",
+    "Pillow": "12.3.0",
+    "scipy": "1.17.0"
+  }
+}

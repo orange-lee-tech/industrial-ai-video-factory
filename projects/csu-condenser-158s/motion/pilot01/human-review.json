@@ -1,0 +1,14 @@
+{
+  "status": "FAIL",
+  "reviewer": "USER",
+  "date": "2026-10-12",
+  "returned_to": "motion",
+  "previous_video_sha256": "506471429dcc91fdb556b0dddb00a14d38f38ace78d97fe2e6ec73f14a8a89b4",
+  "user_reported_adjacent_gray_difference": {
+    "SH009": 0.105,
+    "SH010": 0.009,
+    "SH011": 0.004
+  },
+  "reason": "Mostly static scenes; changes concentrated at cuts. File parameters passed; animation quality failed.",
+  "next_trial": "../pilot02/permit.json"
+}

@@ -1,5 +1,5 @@
 {
-  "status": "CONDITIONAL_TRIAL_ONLY",
+  "status": "REJECTED_MOTION",
   "authorization": "User conditionally accepted six PNGs and authorized SH009→SH010→SH011 18-second deterministic trial on 2026-10-12; no expanded batch. This is not a fabricated professional signature.",
   "scope": [
     "SH009",
@@ -15,6 +15,7 @@
     "SH010": "74761affd8d6fdcdd462b8dac6714e261bbd34825c367647899e5463c5c2b7eb",
     "SH011": "e5dbeb1d1be82954f9246a539364c25b067d1a7c20fa1458ae06a4e5bd63db8c"
   },
-  "human_video_review": "PENDING",
-  "paid_inference": false
+  "human_video_review": "FAIL",
+  "paid_inference": false,
+  "rejection": "User inspected MP4: mostly static, motion concentrated at cuts; returned to motion process 2026-10-12."
 }
