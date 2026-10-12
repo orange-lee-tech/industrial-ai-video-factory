@@ -1,0 +1,38 @@
+{
+  "shot_id": "SH007",
+  "asset_class": "film_keyframe_candidate",
+  "status": "VISUAL_REVIEW",
+  "route": "B_HIGH_QUALITY_2D_2_5D",
+  "future_route": "C_HYBRID",
+  "asset": "film-keyframes/SH007/SH007-film-candidate-v01.png",
+  "asset_sha256": "cff140f8b3c4cde38df614801926ae35639fb848fadb9d190fd30c98df6c8581",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "master_id": "MASTER-COND-01-v1",
+  "master_sha256": "ea2927ebaf2cb8cab2176a1f1597ea949262a808364930c5254abcfb0b0b7874",
+  "script_sha256": "fb95bbbd6d66382c078e80b9255af7c3e5305f96ed7aad0d906738d5a719157b",
+  "backend": "built-in image_gen",
+  "seed": "not exposed by tool",
+  "reference_quality_image_sha256": "d95f501e057602ff98b0444454528fedb6293e576792e7647ac4ff0225cb97f9",
+  "geometry_relation": "semantic topology mapping; not pixel-aligned CAD",
+  "art_version": "v01",
+  "generated_attempts": 3,
+  "chosen_attempt": 3,
+  "visible_symbolic_tube_count": 5,
+  "master_symbolic_tube_count": 6,
+  "air_extraction_visibility": "not shown in this structural reveal, planned for SH017",
+  "editable_layers_ready": false,
+  "overlay_ready": false,
+  "animation_generated": false,
+  "visual_approval": null,
+  "professional_approval": null,
+  "remaining": [
+    "user visual quality approval",
+    "unify visible tube layout before adjacent-shot reuse",
+    "reduce vapour/surface imagery ambiguity",
+    "external deterministic labels and safe-frame layout",
+    "independent layer/mask construction"
+  ]
+}

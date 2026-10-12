@@ -1,0 +1,148 @@
+{
+  "master_id": "MASTER-COND-01-v1",
+  "equipment_id": "COND_01",
+  "status": "DRAFT_FOR_ENGINEERING_REVIEW",
+  "projection": "2D longitudinal cutaway",
+  "units": "illustrative canvas pixels; not engineering dimensions",
+  "canvas": [
+    1600,
+    900
+  ],
+  "design_variant": "down exhaust; single water pass left to right; recirculating cooling example",
+  "palette": {
+    "steam": "#BFEFF5",
+    "cooling_water": "#2476CF",
+    "condensate": "#E8B54A",
+    "noncondensables": "#A6AFBA",
+    "metal": "#76899B",
+    "background": "#101F30"
+  },
+  "components": {
+    "shell": [
+      300,
+      230,
+      1160,
+      650
+    ],
+    "steam_inlet": [
+      650,
+      120,
+      810,
+      230
+    ],
+    "left_waterbox": [
+      180,
+      300,
+      300,
+      565
+    ],
+    "right_waterbox": [
+      1160,
+      300,
+      1280,
+      565
+    ],
+    "tube_sheets_x": [
+      300,
+      1160
+    ],
+    "tube_centrelines_y": [
+      330,
+      370,
+      410,
+      450,
+      490,
+      530
+    ],
+    "hotwell": [
+      480,
+      650,
+      1000,
+      755
+    ],
+    "air_cooling_zone": [
+      1000,
+      565,
+      1140,
+      635
+    ],
+    "air_extraction_path": [
+      [
+        1140,
+        600
+      ],
+      [
+        1380,
+        600
+      ],
+      [
+        1380,
+        655
+      ]
+    ],
+    "condensate_outlet": [
+      [
+        730,
+        755
+      ],
+      [
+        730,
+        835
+      ]
+    ]
+  },
+  "topology": [
+    {
+      "from": "CW_IN",
+      "via": [
+        "LEFT_WATERBOX",
+        "TUBE_LUMENS",
+        "RIGHT_WATERBOX"
+      ],
+      "to": "CW_OUT",
+      "medium": "cooling_water"
+    },
+    {
+      "from": "LP_EXHAUST",
+      "via": [
+        "SHELL_STEAM_SPACE",
+        "TUBE_OUTER_SURFACES"
+      ],
+      "to": "HOTWELL",
+      "medium": "steam_to_condensate"
+    },
+    {
+      "from": "HOTWELL",
+      "via": [
+        "CONDENSATE_OUTLET"
+      ],
+      "to": "CONDENSATE_PUMP_SYSTEM",
+      "medium": "condensate"
+    },
+    {
+      "from": "AIR_COOLING_ZONE",
+      "via": [
+        "AIR_EXTRACTION_BRANCH"
+      ],
+      "to": "VACUUM_SYSTEM_EXAMPLE",
+      "medium": "air_and_water_vapor"
+    }
+  ],
+  "immutable": [
+    "sealed tube wall separates media",
+    "two end tube sheets separate waterboxes from shell",
+    "no cooling water route to hotwell",
+    "hotwell remains below tubes",
+    "air extraction branch separate from main steam inlet",
+    "six drawn tube tracks are symbolic, never claim actual tube count",
+    "no mirrored axes or viewpoint changes",
+    "pump shown as system block; no invented impeller cutaway"
+  ],
+  "evidence_ids": [
+    "S1",
+    "S2",
+    "S4",
+    "S5"
+  ],
+  "reference_policy": "Original educational drawing based on topology; reference manual Figure II examined, not copied or redistributed. Omitted supports/valves/pump auxiliaries are deliberate abstraction."
+}

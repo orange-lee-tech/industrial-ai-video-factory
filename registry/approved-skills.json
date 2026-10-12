@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-12",
+  "upstreams": [
+    {
+      "name": "create-storyboard",
+      "repository": "https://github.com/TateZhouSiu/create-storyboard-skill",
+      "revision": "4b8662e2fee51b37488c77952bbfa302bfeaf36c",
+      "license": "MIT",
+      "integration": "local optional upstream checkout; adapt method only",
+      "entry": "skills/create-storyboard/SKILL.md",
+      "status": "user-approved/source-verified"
+    },
+    {
+      "name": "director-storyboard",
+      "repository": "https://github.com/ai2764/ai-video-skills",
+      "revision": "a42f31adcd733719f1234b1ba42743af83bde086",
+      "license": "NOT FOUND IN REPOSITORY TREE: do not vendor",
+      "integration": "none: user deferred pending licensing and need",
+      "entry": "codex/director-storyboard/SKILL.md",
+      "status": "DEFERRED / DO NOT INSTALL"
+    }
+  ]
+}

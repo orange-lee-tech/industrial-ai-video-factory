@@ -1,0 +1,6 @@
+# Preserve production-contract SHA256 across Windows/macOS/Linux checkouts.
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.xlsx binary
+*.mp4 binary

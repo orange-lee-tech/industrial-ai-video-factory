@@ -1,0 +1,50 @@
+{
+  "revision": "2026-10-12",
+  "policy": "No third-party code or weights vendored; review license, maintenance and runtime before adoption",
+  "skills": [
+    {
+      "name": "create-storyboard",
+      "url": "https://github.com/TateZhouSiu/create-storyboard-skill",
+      "stage": "script_to_shots",
+      "status": "review",
+      "rationale": "shot card and continuity contract; industrial physics gate missing"
+    },
+    {
+      "name": "director-storyboard",
+      "url": "https://github.com/ai2764/ai-video-skills",
+      "stage": "keyframe_to_clip",
+      "status": "DEFERRED",
+      "rationale": "Latest main decision: do not clone/install/run; archival candidate only"
+    },
+    {
+      "name": "video-storyboard",
+      "url": "https://github.com/agentara/skills",
+      "stage": "script_to_shots",
+      "status": "hold",
+      "rationale": "overlaps primary storyboard candidate"
+    }
+  ],
+  "tools": [
+    {
+      "name": "ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "stage": "image_video_backend",
+      "status": "review",
+      "rationale": "API controlled remote-capable engine, not a skill"
+    },
+    {
+      "name": "Wan2.2",
+      "url": "https://github.com/Wan-Video/Wan2.2",
+      "stage": "clip",
+      "status": "cloud_candidate",
+      "rationale": "official GPU requirements exceed current local GPUs"
+    },
+    {
+      "name": "VideoHelperSuite",
+      "url": "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite",
+      "stage": "assembly",
+      "status": "defer",
+      "rationale": "optional support for video frames"
+    }
+  ]
+}
